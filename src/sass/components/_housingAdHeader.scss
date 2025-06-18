@@ -1,0 +1,143 @@
+@import "../components/tag";
+
+.housingAdHeader{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &_titleAndTags{
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @media (max-width: 768px) {
+            max-width: 100%;
+            gap: 14px;
+        }
+
+        &_title {
+
+            & h1 {
+                margin: 0;
+                margin-bottom: 8px;
+                color: #FF6060 ;
+                font-family: Montserrat ;
+                font-size: 36px;
+                font-weight: 500 ;
+                text-wrap: wrap;
+
+                @media (max-width: 768px) {
+                    font-size: 18px;
+                }
+
+            }
+
+            & p {
+                margin: 0;
+                color: black ;
+                font-family: Montserrat ;
+                font-size: 18px;
+                font-weight: 500 ;
+                text-wrap: wrap;
+
+                @media (max-width: 768px) {
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+        &_tags{
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+
+    }
+
+    &_hostAndRating{
+
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+
+        @media (max-width: 768px) {
+            gap: 0;
+            max-width: 100%;
+            width: 100%;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        &_host {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 10px;
+
+            &_name {
+                font-family: Montserrat;
+                color: #FF6060 ;
+                font-size: 18px;
+                font-weight: 500;
+                display: flex;
+                flex-direction: column;
+                text-align: right; 
+                line-height: 1.2;
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+
+            &_img {
+                width: 64px;
+                height: 64px;
+                background-color: #C4C4C4;
+                border-radius: 50%;
+                background-size: cover;
+
+                @media (max-width: 768px) {
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+        }
+
+        &_Rating{
+
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 15px ;
+
+            @media (max-width: 768px) {
+                gap: 6.5px ;
+            }
+
+            & img{
+
+                @media (max-width: 768px) {
+                    width: 13.5px;
+                    height: 13px; ;
+                }
+                
+            }
+
+        }
+
+    }
+
+}

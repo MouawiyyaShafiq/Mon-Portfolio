@@ -1,0 +1,21 @@
+.tag {
+    min-width: 95px;
+    height: 25px;
+    background-color: #FF6060;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Montserrat ;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px;
+
+    @media (max-width: 768px) {
+        min-width: 64px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+}

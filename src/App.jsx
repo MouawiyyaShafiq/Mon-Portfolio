@@ -1,8 +1,18 @@
+import { BrowserRouter} from "react-router-dom"
+import Footer from "./components/footer"
+import Header from "./components/header"
+import Router from "./router"
 
 function App() {
 
   return (
-    <p>TEST</p>
+    <BrowserRouter>
+      <Header/>
+        <main>
+          <Router/>
+        </main>
+      <Footer/>
+    </BrowserRouter>
   )
 }
 

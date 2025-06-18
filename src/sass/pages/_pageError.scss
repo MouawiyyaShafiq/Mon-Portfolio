@@ -1,0 +1,62 @@
+.pageErrorContainer{
+    max-width: 1240px;
+    margin: 139px 6.94% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 139px;
+    font-family: Montserrat ;
+    color: #FF6060 ;
+
+    @media (max-width: 768px) {
+        margin: 113px 5.33% ;
+        gap: 113px;
+        max-width: 89.33%;
+    }
+
+    &_title{
+        margin: 0;
+        line-height: 100%;
+        font-weight: 700;
+        font-size: 288px;
+
+        @media (max-width: 768px) {
+            font-size: 96px;
+        }
+    }
+
+    &_text{
+        margin: 0;  
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.4;
+
+        @media (max-width: 768px) {
+            font-size: 18px;  
+        }
+
+        & br {
+            display: none;
+
+            @media (max-width: 768px) {
+                display: block;  
+            }
+        }
+    
+    }
+
+    &_link{
+        margin: 0;  
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+        color: black;
+
+        @media (max-width: 768px) {
+            font-size: 14px;  
+        }
+    
+    }
+
+}

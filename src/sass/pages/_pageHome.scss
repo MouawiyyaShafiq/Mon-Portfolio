@@ -1,0 +1,24 @@
+@import "../components/card";
+@import "../components/banner";
+
+.galleryHome{
+    max-width: 1140px;
+    margin: 43px 6.94% 0px 6.94% ;
+    padding: 56px 50px 43px 50px ;
+    gap: 50px 5.26%;
+    border-radius: 25px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+        background-color: white;
+        margin: 22px 5.33% 0px 5.33% ;
+        padding: 0;
+        gap: 20px 0px;
+        max-width: 89.33%;
+        flex-direction: column;
+        
+    }
+
+}
