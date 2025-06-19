@@ -1,12 +1,9 @@
-import Banner from "../components/banner"
-import bannerImg from "../images/paysage_foret_montagne.png"
 import Colapse from "../components/colapse"
 
 function PageAbout () {
 
     return (
         <>
-            <Banner bannerImg={bannerImg} bannertitle1="" bannertitle2="" titleDisplay="none" imgScale="1"/>
             <section className="about_colapseContainer">
                 <Colapse 
                 colapseTitle="Fiabilité"

@@ -1,9 +1,9 @@
 header {
+  padding: 50px;
   display: flex;
-  max-width: 1240px;
-  margin: 45px 6.94% 0px 6.94%;
   justify-content: space-between;
   align-items: center;
+  background-color: #5E5E5E;
 }
 @media (max-width: 768px) {
   header {
@@ -11,30 +11,47 @@ header {
     height: 46.88px;
     margin: 20px 5.33% 0px 5.33%;
   }
-  header svg {
-    width: 145px;
-    height: 46px;
+}
+header .logoLink {
+  transform-origin: left center;
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  header .logoLink {
+    transform: scale(1);
   }
 }
-header .navLink {
-  color: black;
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+@media (max-width: 768px) {
+  header nav {
+    gap: 26px;
+  }
+}
+header nav .navLink {
+  color: #C4C4C4;
   text-decoration: none;
   font-family: Montserrat;
   font-weight: 500;
   font-size: 24px;
-  margin-left: 47px;
+  padding: 5px;
 }
 @media (max-width: 768px) {
-  header .navLink {
+  header nav .navLink {
     font-size: 12px;
-    margin-left: 26px;
   }
 }
-header .navLink:hover {
-  text-decoration: underline;
+header nav .navLink:hover {
+  border: 2px solid #C4C4C4;
+  border-radius: 2px;
 }
-header .active {
-  text-decoration: underline;
+
+.navLink.active {
+  border: 2px solid #C4C4C4;
+  border-radius: 2px;
 }
 
 footer {
@@ -627,8 +644,7 @@ footer p {
 }
 
 body {
-  max-width: 1440px;
-  margin: auto;
+  margin: 0;
 }
 body #root {
   height: 100vh;
