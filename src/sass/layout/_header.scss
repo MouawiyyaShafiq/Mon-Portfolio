@@ -1,4 +1,4 @@
-header {
+.header {
 
     padding: 50px;
     display: flex;
@@ -12,17 +12,18 @@ header {
         margin: 20px 5.33% 0px 5.33% ;
     }
 
-    & .logoLink{
-        transform-origin: left center;
-        transform: scale(1.2);
+    &_logoLink svg{
+        height: 100.8px;
+        width: 234px;
 
         @media (max-width: 768px) {
-        transform: scale(1);
+        height: 100.8px;
+        width: 234px;
     }
 
     }
 
-    & nav{
+    &_nav{
         display: flex;
         align-items: center;
         gap: 47px;
@@ -31,12 +32,14 @@ header {
             gap: 26px;
         }
 
-        & .navLink{
+        &_navLink{
         color: #C4C4C4;
         text-decoration: none;
         font-family: Montserrat ;
         font-weight: 500;
         font-size: 24px;
+        border: 2px solid transparent;
+        border-radius: 2px;
         padding: 5px;
 
         @media (max-width: 768px) {
@@ -44,17 +47,15 @@ header {
         }
 
         &:hover{
-            border: 2px solid #C4C4C4;
-            border-radius: 2px;
+            border-color: #C4C4C4;   
         }
-        
+
+        &.active{
+            border-color: #C4C4C4;
+        }
+
         }
 
     }
 
-}
-
-.navLink.active {
-    border: 2px solid #C4C4C4;
-    border-radius: 2px;
 }

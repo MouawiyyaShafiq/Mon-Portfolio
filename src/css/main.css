@@ -1,4 +1,4 @@
-header {
+.header {
   padding: 50px;
   display: flex;
   justify-content: space-between;
@@ -6,83 +6,104 @@ header {
   background-color: #5E5E5E;
 }
 @media (max-width: 768px) {
-  header {
+  .header {
     max-width: 89.33%;
     height: 46.88px;
     margin: 20px 5.33% 0px 5.33%;
   }
 }
-header .logoLink {
-  transform-origin: left center;
-  transform: scale(1.2);
+.header_logoLink svg {
+  height: 100.8px;
+  width: 234px;
 }
 @media (max-width: 768px) {
-  header .logoLink {
-    transform: scale(1);
+  .header_logoLink svg {
+    height: 100.8px;
+    width: 234px;
   }
 }
-header nav {
+.header_nav {
   display: flex;
   align-items: center;
   gap: 47px;
 }
 @media (max-width: 768px) {
-  header nav {
+  .header_nav {
     gap: 26px;
   }
 }
-header nav .navLink {
+.header_nav_navLink {
   color: #C4C4C4;
   text-decoration: none;
   font-family: Montserrat;
   font-weight: 500;
   font-size: 24px;
+  border: 2px solid transparent;
+  border-radius: 2px;
   padding: 5px;
 }
 @media (max-width: 768px) {
-  header nav .navLink {
+  .header_nav_navLink {
     font-size: 12px;
   }
 }
-header nav .navLink:hover {
-  border: 2px solid #C4C4C4;
-  border-radius: 2px;
+.header_nav_navLink:hover {
+  border-color: #C4C4C4;
+}
+.header_nav_navLink.active {
+  border-color: #C4C4C4;
 }
 
-.navLink.active {
-  border: 2px solid #C4C4C4;
-  border-radius: 2px;
-}
-
-footer {
-  background-color: black;
+.footer {
+  padding: 50px;
   display: flex;
-  max-width: 1440px;
-  height: 209px;
-  margin-top: 50px;
   flex-direction: column;
+  background-color: #5E5E5E;
   align-items: center;
   position: sticky;
   top: 100%;
 }
+.footer_logoLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+.footer_logoLinks_logoLink svg {
+  height: 100.8px;
+  width: 234px;
+}
 @media (max-width: 768px) {
-  footer {
-    margin-top: 27px;
+  .footer_logoLinks_logoLink svg {
+    height: 100.8px;
+    width: 234px;
   }
 }
-footer .navLink {
-  margin-top: 66px;
+.footer_logoLinks_socialLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
-footer p {
+.footer_logoLinks_socialLinks_link {
+  color: #C4C4C4;
+  font-size: 38px;
+  padding: 5px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+}
+.footer_logoLinks_socialLinks_link:hover {
+  border-color: #C4C4C4;
+}
+.footer_text {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 24px;
-  color: white;
+  color: #C4C4C4;
   margin: 0;
   margin-top: 38px;
 }
 @media (max-width: 768px) {
-  footer p {
+  .footer_text {
     font-size: 12px;
     width: 100px;
     margin-top: 10px;
