@@ -5,8 +5,8 @@ import Carousel from "../components/carousel"
 import HousingAdHeader from "../components/housingAdHeader"
 import Colapse from "../components/colapse"
 
-function PageHousing () {
-    const {currentAdId} = useParams()
+function PageProject () {
+    const {currentProjectId} = useParams()
 
     const [currentAd, setCurrentAd] = useState(null)
     const navigate = useNavigate()
@@ -19,7 +19,7 @@ function PageHousing () {
         async function fetchData() {
 
             try {
-                const response = await fetch("/adList.json");
+                const response = await fetch("/projectList.json");
     
                 if (!response) {
                     throw new Error(`${response.status}`);
@@ -27,7 +27,7 @@ function PageHousing () {
     
                 const adList = await response.json();
 
-                const foundAd = adList.find((ad)=>ad.id==currentAdId)
+                const foundAd = adList.find((ad)=>ad.id==currentProjectId)
 
                 if(foundAd){
                     setCurrentAd(foundAd) 
@@ -64,4 +64,4 @@ function PageHousing () {
 
 }
 
-export default PageHousing
+export default PageProject

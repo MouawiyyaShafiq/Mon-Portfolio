@@ -1,6 +1,7 @@
 [
 	{
 		"id": "c67ab8a7",
+		"main": "yes",
 		"title": "Appartement cosy",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 		"pictures": [
@@ -31,6 +32,7 @@
 	},
 	{
 		"id": "b9123946",
+		"main": "yes",
 		"title": "Magnifique appartement proche Canal Saint Martin",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
@@ -64,6 +66,7 @@
 	},
 	{
 		"id": "46d188c5",
+		"main": "yes",
 		"title": "Studio de charme - Buttes Chaumont",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"pictures": [
@@ -93,6 +96,7 @@
 	},
 	{
 		"id": "7af00cd6",
+		"main": "no",
 		"title": "Nid douillet au coeur du 11ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 		"pictures": [
@@ -124,6 +128,7 @@
 	},
 	{
 		"id": "0979876d",
+		"main": "no",
 		"title": "Appartement de Standing - 10e",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
 		"pictures": [
@@ -155,6 +160,7 @@
 	},
 	{
 		"id": "f72a452f",
+		"main": "no",
 		"title": "Studio d'artiste",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 		"pictures": [
@@ -183,6 +189,7 @@
 	},
 	{
 		"id": "b4c67936",
+		"main": "no",
 		"title": "Cheap - Studio 18ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
 		"pictures": [
@@ -214,6 +221,7 @@
 	},
 	{
 		"id": "bc6f7112",
+		"main": "no",
 		"title": "Superbe appartement proche Tour Eiffel",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
 		"pictures": [
@@ -248,6 +256,7 @@
 	},
 	{
 		"id": "cb2f9222",
+		"main": "no",
 		"title": "Suite familiale",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
 		"pictures": [
@@ -279,6 +288,7 @@
 	},
 	{
 		"id": "d60ca600",
+		"main": "no",
 		"title": "Appartement moderne sur parc",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
 		"pictures": [
@@ -311,6 +321,7 @@
 	},
 	{
 		"id": "2cf259e1",
+		"main": "no",
 		"title": "Charmant Studio Marais",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
 		"pictures": [

@@ -22,13 +22,13 @@
         }
 
         &_logoLink svg  {
-            height: 100.8px;
-            width: 234px;
+            height: 104px;
+            width: 164px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
         @media (max-width: 768px) {
-            height: 50.4px;
-            width: 117px;
+            height: 52px;
+            width: 82px;
         }
     }
 
@@ -42,7 +42,7 @@
             font-size: 38px;
             padding: 7px 14px;
             border: 2px solid $color-secondary;
-            border-radius: 2px;
+            border-radius: 5px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
             @media (max-width: 768px) {
@@ -51,7 +51,6 @@
             }
 
             &:hover{
-            color: $color-primary;
             background-color: $color-accent;
             }
         }
