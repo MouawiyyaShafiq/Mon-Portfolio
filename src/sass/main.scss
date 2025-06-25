@@ -4,9 +4,11 @@
 @import "./pages/pageHousing";
 @import "./pages/pageAbout";
 @import "./pages/pageError";
+@import "./utils/variables";
 
 
 body {
+    font-family: $font-main;
     margin: 0;
     & #root{
         height: 100vh;

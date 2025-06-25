@@ -15,6 +15,7 @@ function Header () {
                 <NavLink className="header_nav_navLink" to="/">Accueil</NavLink>
                 <NavLink className="header_nav_navLink" to="/works">Réalisation</NavLink>
                 <NavLink className="header_nav_navLink" to="/about">Profil</NavLink>
+                <NavLink className="header_nav_navLink" to="/contact">Contact</NavLink>
             </nav>
         </header>
 

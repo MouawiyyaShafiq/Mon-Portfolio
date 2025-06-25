@@ -1,24 +1,28 @@
+@import "../utils/variables";
+
 .header {
 
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5E5E5E ;
+    background-color: $color-primary ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    gap: 30px;
     
     @media (max-width: 768px) {
-        max-width: 89.33%;
-        height: 46.88px;
-        margin: 20px 5.33% 0px 5.33% ;
+        padding: 20px;
+        gap: 23px;
     }
 
     &_logoLink svg{
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         height: 100.8px;
         width: 234px;
 
         @media (max-width: 768px) {
-        height: 100.8px;
-        width: 234px;
+        height: 50.4px;
+        width: 117px;
     }
 
     }
@@ -26,32 +30,38 @@
     &_nav{
         display: flex;
         align-items: center;
-        gap: 47px;
+        gap: 0 30px;
 
         @media (max-width: 768px) {
-            gap: 26px;
+            gap: 4px 23px;
+            flex-wrap: wrap;
         }
 
         &_navLink{
-        color: #C4C4C4;
+        color: $color-secondary;
         text-decoration: none;
-        font-family: Montserrat ;
         font-weight: 500;
-        font-size: 24px;
-        border: 2px solid transparent;
+        font-size: 18px;
+        text-align: center;
+        border: 2px solid $color-secondary;
         border-radius: 2px;
         padding: 5px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
         @media (max-width: 768px) {
             font-size: 12px;
+            padding: 1.5px;
+            flex: 1 1;
         }
 
         &:hover{
-            border-color: #C4C4C4;   
+            color: $color-primary;
+            background-color: $color-accent;
         }
 
         &.active{
-            border-color: #C4C4C4;
+            color: $color-primary;
+            background-color: $color-accent;
         }
 
         }
