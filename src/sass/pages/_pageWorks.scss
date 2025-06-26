@@ -1,0 +1,37 @@
+@import "../components/card";
+@import "../utils/variables";
+
+.projectGallery {
+
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        padding: 20px 0px ;    
+    }
+
+    &_title{
+       color: $color-primary;
+       margin: 0;
+    }
+
+    &_container{
+        padding: 30px 20px;
+        max-width: 1140px;
+        border-radius: 10px;
+        background-color: $color-primary;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            border-radius: 0px;
+        }
+    }
+}

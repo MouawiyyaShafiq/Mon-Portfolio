@@ -5,25 +5,23 @@ import { useNavigate } from "react-router-dom"
 
 function PageWorks () {
 
-    const [housingAdList, setHousingAdList] = useState([])
+    const [projectList, setProjectList] = useState([])
     const navigate = useNavigate()
 
     useEffect(()=>{
-
-        // Fonction permettant de récupérer la liste des annonces de logement depuis le fichier JSON //
         
         async function fetchData() {
 
             try {
-                const response = await fetch("/adList.json");
+                const response = await fetch("/projectList.json");
 
                 if (!response) {
                     throw new Error(`${response.status}`);
                   }
 
-                const adList = await response.json();
+                const List = await response.json();
 
-                setHousingAdList(adList)
+                setProjectList(List)
 
             } catch (error) {
                 navigate("*")
@@ -38,10 +36,11 @@ function PageWorks () {
 
     return (
         <>
-        <section className="galleryHome" id="mesTravaux">
-
-            {housingAdList.map((ad)=>{ return <Card key={ad.id} page="Home" cardImg={ad.cover} cardTitle={ad.title} id={ad.id}/>})}
-            
+        <section className="projectGallery" id="mesTravaux">
+            <h2 className="projectGallery_title">Mes réalisations</h2>
+            <div className="projectGallery_container">
+                {projectList.map((project)=>{ return <Card key={project.id} cardImg={project.cover} cardTitle={project.title} id={project.id}/>})}
+            </div>
         </section>
         </>
     )

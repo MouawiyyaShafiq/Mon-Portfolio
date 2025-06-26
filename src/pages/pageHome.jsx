@@ -65,7 +65,7 @@ function PageHome () {
             <section className="mainProjects">
                 <h2 className="mainProjects_title">Réalisations marquantes</h2>
                 <div className="mainProjects_container">
-                    {mainProjects.map((project)=>{ return <Card key={project.id} page="Home" cardImg={project.cover} cardTitle={project.title} id={project.id}/>})}
+                    {mainProjects.map((project)=>{ return <Card key={project.id} cardImg={project.cover} cardTitle={project.title} id={project.id}/>})}
                 </div>
                 <NavLink className="mainProjects_link" to="/works">Voir toutes mes réalisations</NavLink>
             </section>
