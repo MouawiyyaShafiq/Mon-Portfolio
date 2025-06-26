@@ -2,7 +2,7 @@
 
 .header {
 
-    padding: 50px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@
 
     &_nav{
         display: flex;
-        align-items: center;
+        justify-content: end;
         gap: 0 30px;
         width: 432.83px;
 
@@ -42,7 +42,7 @@
         color: $color-secondary;
         text-decoration: none;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
         border: 2px solid $color-secondary;
         border-radius: 5px;

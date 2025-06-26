@@ -1,0 +1,53 @@
+@import "../utils/variables";
+
+.contact {
+  background-color: $color-secondary;
+  color: $color-primary;
+  padding: 20px 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+  h2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &_form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    input,
+    textarea {
+      background-color: $color-primary;
+      color: $color-secondary;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      font-family: inherit;
+      border-radius: 5px;
+      resize: none;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    button {
+      background-color: $color-primary;
+      color: $color-secondary;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-accent;
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import photoProfil from '../images/photo_de_profil.jpg'
 import { NavLink, useNavigate } from 'react-router-dom'
 import Card from "../components/card"
+import PageContact from './pageContact'
 
 function PageHome () {
 
@@ -68,6 +69,7 @@ function PageHome () {
                 </div>
                 <NavLink className="mainProjects_link" to="/works">Voir toutes mes réalisations</NavLink>
             </section>
+            <PageContact></PageContact>
         </>
         )
     }
