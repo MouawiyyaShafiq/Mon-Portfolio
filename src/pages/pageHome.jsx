@@ -57,6 +57,7 @@ function PageHome () {
                         Je suis particulièrement sensible à l'ergonomie, au design web et à l'expérience utilisateur. 
                         J’aime créer des interfaces modernes, accessibles et centrées sur l’utilisateur.
                     </p>
+                    <NavLink className="presentation_text_link" to="/profil">En savoir plus</NavLink>
                 </div>
                 <div className="presentation_imgContainer">
                     <img className="presentation_imgContainer_img" src={photoProfil} alt='photo de profil'></img>

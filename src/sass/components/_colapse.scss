@@ -31,7 +31,7 @@
         justify-content: space-between;
         align-items: center;
         z-index: 1;
-
+        
         @media (max-width: 768px) {
             height: 13px;
             padding: 10px 10px;
@@ -55,6 +55,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: transform 500ms;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
             @media (max-width: 768px) {
                 width: 16px;
