@@ -1,24 +1,22 @@
 .pageErrorContainer{
     max-width: 1240px;
-    margin: 139px 6.94% ;
+    padding: 20px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 139px;
+    gap: 50px;
     font-family: Montserrat ;
-    color: #FF6060 ;
+    color: $color-primary ;
 
     @media (max-width: 768px) {
-        margin: 113px 5.33% ;
-        gap: 113px;
-        max-width: 89.33%;
+        padding: 20px 50px;
     }
 
     &_title{
         margin: 0;
         line-height: 100%;
+        font-size: 150px;
         font-weight: 700;
-        font-size: 288px;
 
         @media (max-width: 768px) {
             font-size: 96px;
@@ -51,7 +49,7 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 1.4;
-        color: black;
+        color: $color-primary ;
 
         @media (max-width: 768px) {
             font-size: 14px;  
