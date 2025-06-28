@@ -13,14 +13,4 @@ body {
     background-color: $color-secondary;
     font-family: $font-main;
     margin: 0;
-    & #root{
-        height: 100vh;
-        & main{
-            min-height: 60vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-    }
-
 }

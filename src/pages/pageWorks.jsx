@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 import Card from "../components/card"
 import { useNavigate } from "react-router-dom"
+import ContactForm from "../components/contactForm"
 
 function PageWorks () {
 
@@ -42,6 +43,7 @@ function PageWorks () {
                 {projectList.map((project)=>{ return <Card key={project.id} cardImg={project.cover} cardTitle={project.title} id={project.id}/>})}
             </div>
         </section>
+        <ContactForm></ContactForm>
         </>
     )
 
