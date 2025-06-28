@@ -1,12 +1,12 @@
 .tag {
     min-width: 95px;
     height: 25px;
-    background-color: #FF6060;
+    background-color: $color-secondary;
     border-radius: 10px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: $color-primary;
     font-family: Montserrat ;
     font-size: 14px;
     font-weight: 700;

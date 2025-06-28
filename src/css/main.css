@@ -55,10 +55,12 @@
   }
 }
 .header_nav_navLink:hover {
-  background-color: #eeeeee;
+  background-color: black;
+  color: white;
 }
 .header_nav_navLink.active {
-  background-color: #eeeeee;
+  background-color: black;
+  color: white;
 }
 
 .footer {
@@ -117,7 +119,8 @@
   }
 }
 .footer_logoLinks_socialLinks_link:hover {
-  background-color: #eeeeee;
+  background-color: black;
+  color: white;
 }
 .footer_text {
   font-weight: 500;
@@ -229,12 +232,14 @@
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
-  border: none;
+  border: solid 2px black;
   border-radius: 5px;
   cursor: pointer;
 }
 .contact_form button:hover {
-  background-color: #eeeeee;
+  border-color: white;
+  background-color: black;
+  color: white;
 }
 
 .presentation {
@@ -306,6 +311,7 @@
 @media (max-width: 768px) {
   .mainProjects {
     gap: 20px;
+    padding: 20px;
   }
 }
 .mainProjects_title {
@@ -335,7 +341,8 @@
 .mainProjects_link:hover {
   font-weight: 500;
   border-color: black;
-  background-color: #eeeeee;
+  background-color: black;
+  color: white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -430,32 +437,29 @@
   }
 }
 
-.carouselHousing {
+.carousel {
   position: relative;
-  max-width: 1240px;
+  max-width: 1200px;
+  width: 100%;
   height: 415px;
-  border-radius: 25px;
+  border-radius: 10px;
   overflow: hidden;
-  margin: 50px 6.94% 0px 6.94%;
   display: flex;
   justify-content: center;
 }
 @media (max-width: 768px) {
-  .carouselHousing {
-    max-width: 89.33%;
+  .carousel {
     height: 255px;
-    margin: 27px 5.33% 0px 5.33%;
-    border-radius: 10px;
   }
 }
-.carouselHousing_img {
+.carousel_img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 500ms;
 }
-.carouselHousing_arrows {
+.carousel_arrows {
   position: absolute;
   top: 0;
   left: 0;
@@ -465,27 +469,37 @@
   justify-content: space-between;
   align-items: center;
 }
-.carouselHousing_arrows img {
+.carousel_arrows img {
+  background-color: black;
+  border: solid 2px white;
+  padding: 10px 10px;
+  border-radius: 5px;
   cursor: pointer;
   margin: 0px 1.85%;
 }
 @media (max-width: 768px) {
-  .carouselHousing_arrows img {
+  .carousel_arrows img {
+    padding: 5px 5px;
     margin: 0px 1.79%;
     width: 17.5px;
     height: 22px;
   }
 }
-.carouselHousing_imgCounter {
+.carousel_imgCounter {
   position: absolute;
   bottom: 0;
   font-family: Montserrat;
   font-size: 18px;
+  font-weight: bold;
   color: white;
   margin-bottom: 30px;
+  background-color: black;
+  border: solid 2px white;
+  padding: 10px 10px;
+  border-radius: 5px;
 }
 @media (max-width: 768px) {
-  .carouselHousing_imgCounter {
+  .carousel_imgCounter {
     display: none;
   }
 }
@@ -493,7 +507,7 @@
 .tag {
   min-width: 95px;
   height: 25px;
-  background-color: #FF6060;
+  background-color: black;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -512,152 +526,73 @@
   }
 }
 
-.housingAdHeader {
+.projectHeader {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  .housingAdHeader {
+  .projectHeader {
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
   }
 }
-.housingAdHeader_titleAndTags {
-  max-width: 70%;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-@media (max-width: 768px) {
-  .housingAdHeader_titleAndTags {
-    max-width: 100%;
-    gap: 14px;
-  }
-}
-.housingAdHeader_titleAndTags_title h1 {
+.projectHeader_title h1 {
   margin: 0;
-  margin-bottom: 8px;
-  color: #FF6060;
+  color: black;
   font-family: Montserrat;
   font-size: 36px;
   font-weight: 500;
   text-wrap: wrap;
 }
 @media (max-width: 768px) {
-  .housingAdHeader_titleAndTags_title h1 {
+  .projectHeader_title h1 {
     font-size: 18px;
   }
 }
-.housingAdHeader_titleAndTags_title p {
-  margin: 0;
-  color: black;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 500;
-  text-wrap: wrap;
-}
-@media (max-width: 768px) {
-  .housingAdHeader_titleAndTags_title p {
-    font-size: 14px;
-  }
-}
-.housingAdHeader_titleAndTags_tags {
+.projectHeader_tags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-.housingAdHeader_hostAndRating {
-  max-width: 30%;
-  display: flex;
-  flex-direction: column;
-  gap: 31px;
-}
-@media (max-width: 768px) {
-  .housingAdHeader_hostAndRating {
-    gap: 0;
-    max-width: 100%;
-    width: 100%;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-.housingAdHeader_hostAndRating_host {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 10px;
-}
-.housingAdHeader_hostAndRating_host_name {
-  font-family: Montserrat;
-  color: #FF6060;
-  font-size: 18px;
-  font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  line-height: 1.2;
-}
-@media (max-width: 768px) {
-  .housingAdHeader_hostAndRating_host_name {
-    display: none;
-  }
-}
-.housingAdHeader_hostAndRating_host_img {
-  width: 64px;
-  height: 64px;
-  background-color: #C4C4C4;
-  border-radius: 50%;
-  background-size: cover;
-}
-@media (max-width: 768px) {
-  .housingAdHeader_hostAndRating_host_img {
-    width: 32px;
-    height: 32px;
-  }
-}
-.housingAdHeader_hostAndRating_Rating {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 15px;
-}
-@media (max-width: 768px) {
-  .housingAdHeader_hostAndRating_Rating {
-    gap: 6.5px;
-  }
-}
-@media (max-width: 768px) {
-  .housingAdHeader_hostAndRating_Rating img {
-    width: 13.5px;
-    height: 13px;
-  }
-}
 
-.housingAdInfo {
-  max-width: 1240px;
-  margin: 25px 6.94% 0px 6.94%;
+.project {
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  justify-content: center;
+  gap: 30px;
 }
 @media (max-width: 768px) {
-  .housingAdInfo {
-    margin: 22px 5.33% 0px 5.33%;
-    max-width: 89.33%;
-    gap: 14px;
+  .project {
+    padding: 20px;
+    gap: 20px;
   }
 }
-
-.housingAdColapses {
+.project_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  .project_info {
+    gap: 20px;
+  }
+}
+.project_colapses {
   width: 100%;
   display: flex;
-  gap: 76px;
+  gap: 50px;
 }
 @media (max-width: 768px) {
-  .housingAdColapses {
+  .project_colapses {
     flex-direction: column;
     gap: 20px;
   }
@@ -670,6 +605,7 @@
   flex-direction: column;
   overflow: hidden;
   transition: all 500ms;
+  border-radius: 5px;
 }
 .colapse--isOpen {
   max-height: 500px;
@@ -683,8 +619,8 @@
   }
 }
 .colapse_header {
-  background-color: #FF6060;
-  color: white;
+  background-color: white;
+  color: black;
   height: 33px;
   padding: 10px 15px;
   border-radius: 5px;
@@ -711,6 +647,9 @@
   }
 }
 .colapse_header_arrow {
+  background-color: black;
+  padding: 10px 5px;
+  border-radius: 5px;
   cursor: pointer;
   transition: transform 500ms;
 }
@@ -718,6 +657,7 @@
   .colapse_header_arrow {
     width: 16px;
     height: 9.14px;
+    padding: 7.5px 2.5px;
   }
 }
 .colapse_header_arrow--isOpen {
@@ -727,8 +667,9 @@
   transform: rotate(0deg);
 }
 .colapse_content {
-  background-color: #F6F6F6;
+  background-color: white;
   color: black;
+  font-weight: 500;
   padding: 20px;
   margin-top: -5px;
   text-align: left;
@@ -748,30 +689,23 @@
   transform: translateY(-100%);
 }
 
-@keyframes colapseAnime {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-.about_colapseContainer {
-  max-width: 1140px;
-  padding: 0 6.94%;
-  margin: 38px 6.94% -12px 6.94%;
+.colapseContainer {
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 @media (max-width: 768px) {
-  .about_colapseContainer {
-    margin: 19px 5.33% -8px 5.33%;
-    max-width: 89.33%;
-    padding: 0;
+  .colapseContainer {
+    padding: 20px;
     gap: 20px;
   }
+}
+.colapseContainer_title {
+  color: white;
+  margin: 0;
 }
 
 .pageErrorContainer {
@@ -874,12 +808,14 @@
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
-  border: none;
+  border: solid 2px black;
   border-radius: 5px;
   cursor: pointer;
 }
 .contact_form button:hover {
-  background-color: #eeeeee;
+  border-color: white;
+  background-color: black;
+  color: white;
 }
 
 body {

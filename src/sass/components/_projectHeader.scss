@@ -1,0 +1,45 @@
+@import "../components/tag";
+
+.projectHeader{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-primary;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &_title {
+
+        & h1 {
+            margin: 0;
+            color: $color-secondary ;
+            font-family: Montserrat ;
+            font-size: 36px;
+            font-weight: 500 ;
+            text-wrap: wrap;
+
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+
+        }
+
+    }
+
+    &_tags{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+
+}

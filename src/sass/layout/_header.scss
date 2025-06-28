@@ -56,11 +56,13 @@
         }
 
         &:hover{
-            background-color: $color-accent;
+            background-color: $color-secondary;
+            color: $color-primary;
         }
 
         &.active{
-            background-color: $color-accent;
+            background-color: $color-secondary;
+            color: $color-primary;
         }
 
         }

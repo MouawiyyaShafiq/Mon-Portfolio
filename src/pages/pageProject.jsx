@@ -2,7 +2,7 @@ import { useNavigate, useParams} from "react-router-dom"
 import { useEffect } from "react"
 import { useState } from "react"
 import Carousel from "../components/carousel"
-import HousingAdHeader from "../components/housingAdHeader"
+import ProjectHeader from "../components/projectHeader"
 import Colapse from "../components/colapse"
 
 function PageProject () {
@@ -50,16 +50,16 @@ function PageProject () {
     if (currentAd) {
 
     return (
-        <>
-        <Carousel page="Housing" carouselImgs={currentAd.pictures}/>
-        <div className="housingAdInfo">
-        <HousingAdHeader adTitle={currentAd.title} adLocation={currentAd.location} tagList={currentAd.tags} fullName={currentAd.host.name} rating={currentAd.rating} hostImage={currentAd.host.picture}/>
-        <div className="housingAdColapses">
-            <Colapse colapseTitle="Description" colapseContent={currentAd.description}/>
-            <Colapse colapseTitle="Équipements" colapseContent={currentAd.equipments}/>    
-        </div>
-        </div>
-        </>
+        <section className="project">
+            <Carousel carouselImgs={currentAd.pictures}/>
+            <div className="project_info">
+                <ProjectHeader adTitle={currentAd.title} tagList={currentAd.tags}/>
+                <div className="project_colapses">
+                    <Colapse colapseTitle="Description" colapseContent={currentAd.description}/>
+                    <Colapse colapseTitle="Compétences acquises" colapseContent={currentAd.equipments}/>    
+                </div>
+            </div>
+        </section>
     )}
 
 }

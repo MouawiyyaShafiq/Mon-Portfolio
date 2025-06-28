@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .colapse {
     max-width: 1023px;
     width: 100%;
@@ -5,6 +7,7 @@
     flex-direction: column;
     overflow: hidden;
     transition: all 500ms;
+    border-radius: 5px;
 
     &--isOpen{
         max-height: 500px;
@@ -19,8 +22,8 @@
     }
 
     &_header {
-        background-color: #FF6060;
-        color: white;
+        background-color: $color-primary;
+        color: $color-secondary;
         height: 33px;
         padding: 10px 15px;
         border-radius: 5px;
@@ -46,13 +49,17 @@
         }
 
         &_arrow{
-
+            
+            background-color: $color-secondary;
+            padding: 10px 5px;
+            border-radius: 5px;
             cursor: pointer;
             transition: transform 500ms;
 
             @media (max-width: 768px) {
                 width: 16px;
                 height: 9.14px;
+                padding: 7.5px 2.5px;
                 }
 
             &--isOpen{
@@ -72,8 +79,9 @@
     }
 
     &_content{
-        background-color: #F6F6F6;
-        color: black ;
+        background-color: $color-primary;
+        color: $color-secondary ;
+        font-weight: 500;
         padding: 20px;
         margin-top: -5px;
         text-align: left;
@@ -98,13 +106,4 @@
     }
 
 
-}
-
-@keyframes colapseAnime {
-    0% {
-        transform: translateY(-100%);
-    }
-    100%{
-        transform: translateY(0);
-    }
 }

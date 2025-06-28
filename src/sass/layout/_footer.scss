@@ -51,7 +51,8 @@
             }
 
             &:hover{
-            background-color: $color-accent;
+            background-color: $color-secondary;
+            color: $color-primary;
             }
         }
     }

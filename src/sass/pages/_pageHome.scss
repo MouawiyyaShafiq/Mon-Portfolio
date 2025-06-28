@@ -70,6 +70,7 @@
 
     @media (max-width: 768px) {
         gap: 20px;
+        padding: 20px;
     }
 
     &_title{
@@ -101,7 +102,8 @@
         &:hover{
             font-weight: 500;
             border-color: $color-secondary;
-            background-color: $color-accent;
+            background-color: $color-secondary;
+            color: $color-primary;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
     }
