@@ -1,6 +1,7 @@
 import { useState } from "react"
-import arrowLeft from "../images/arrow_back.png"
-import arrowRight from "../images/arrow_forward.png"
+import arrowLeft from "../../public/images/ui/arrow_back.png"
+import arrowRight from "../../public/images/ui/arrow_forward.png"
+import { easeInOut, motion } from "framer-motion"
 
 
 function Carousel ({carouselImgs}) {
@@ -35,7 +36,12 @@ function Carousel ({carouselImgs}) {
     return (
         <>
             <section className={`carousel`}>
-                <img className={`carousel_img`} src={carouselImgs[currentImg]} alt="Image illustrative de la location"></img>
+                <motion.img className={`carousel_img`} src={carouselImgs[currentImg]} alt="Image illustrative de la location"
+                    key={currentImg}
+                    initial={{ opacity: 0,}}
+                    animate={{ opacity: 1,}}
+                    transition={{ duration: 0.5 , ease : easeInOut }}
+                ></motion.img>
                 { carouselImgs.length <= 1 ? null :
                 <>
                 <div className={`carousel_arrows`} >
