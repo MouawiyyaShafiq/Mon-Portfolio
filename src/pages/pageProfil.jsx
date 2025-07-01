@@ -110,32 +110,37 @@ function PageAbout () {
                 >Mon profil</motion.h2>
                 <motion.div variants={colapseVariants}>
                     <Colapse 
-                    colapseTitle="Formation"
-                    colapseContent="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, 
-                                    et toutes les informations sont régulièrement vérifiées par nos équipes."
+                    colapseTitle="Formations"
+                    colapseContent="J’ai récemment terminé une formation de développeur web de 9 mois à temps plein chez Openclassrooms, 
+                    où j’ai acquis les compétences nécessaires pour concevoir et développer des sites et applications modernes. 
+                    Avant cela, j’ai obtenu un DUT en Gestion des Entreprises et des Administrations, option gestion comptable 
+                    et financière, ainsi qu’un bac scientifique. Ces parcours m’ont permis de développer à la fois des compétences 
+                    techniques et une bonne capacité d’organisation."
                     />
                 </motion.div>
                 <motion.div variants={colapseVariants}>
                     <Colapse 
                     colapseTitle="Compétences techniques" 
-                    colapseContent="La bienveillance fait partie des valeurs fondatrices de Kasa. 
-                                    Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de note plateforme."
+                    colapseContent="Au cours de ma formation en développement web, j’ai appris à maîtriser HTML, CSS, JavaScript, React et RTK. 
+                    Je travaille régulièrement avec des outils comme Git pour la gestion de versions et Sass pour le design des interfaces. 
+                    J’ai réalisé plusieurs projets responsive intégrant des animations et des appels API, ce qui me permet de créer des expériences 
+                    utilisateur modernes et dynamiques."
                     />
                 </motion.div>
                 <motion.div variants={colapseVariants}>
                     <Colapse 
                     colapseTitle="Compétences transversales" 
-                    colapseContent="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. 
-                                    N'hésitez pas à nous contacter si vous avez la moindre question."
+                    colapseContent="Je suis une personne rigoureuse et organisée, qui respecte ses engagements et sait gérer ses priorités. 
+                    J’ai aussi une vraie curiosité qui me pousse à apprendre constamment de nouvelles choses et à améliorer mes méthodes de travail. 
+                    Cette capacité d’adaptation me permet de rester efficace face aux différents défis rencontrés."
                     />
                 </motion.div>
                 <motion.div variants={colapseVariants}>
                     <Colapse 
                     colapseTitle="Expériences professionnelles" 
-                    colapseContent="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, 
-                                    chaque logement correspond aux critères de sécurité établis par nos services. 
-                                    En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. 
-                                    Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
+                    colapseContent="Avant de me tourner vers le développement, j’ai travaillé deux ans comme comptable. 
+                    Cette expérience m’a appris la rigueur, la gestion des priorités et le sens du détail. Même si je suis débutant en développement, 
+                    je peux m’appuyer sur ces qualités pour aborder mes projets avec sérieux et méthode."
                     />
                 </motion.div>
                 
