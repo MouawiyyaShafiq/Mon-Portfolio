@@ -3,11 +3,11 @@
 		"id": "1",
 		"main": "no",
 		"title": "Riding Cities – Mise à jour HTML d’un site associatif",
-		"cover": "/images/projects/Riding_Cities/image1.png",
+		"cover": "/images/projects/Riding_Cities/image1.jpg",
 		"pictures": [
-			"/images/projects/Riding_Cities/image1.png",
-			"/images/projects/Riding_Cities/image2.png",
-			"/images/projects/Riding_Cities/image3.png"
+			"/images/projects/Riding_Cities/image1.jpg",
+			"/images/projects/Riding_Cities/image2.jpg",
+			"/images/projects/Riding_Cities/image3.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Dans un contexte fictif de stage chez l’agence Webonzaï, j’ai été chargé de mettre à jour le site web de Riding Cities, une association de skate. À partir d’une maquette Figma, j’ai intégré une nouvelle section présentant les membres fondateurs, et modifié la section de téléchargement pour y ajouter des boutons permettant l’accès aux plannings enfants et adultes.",
 		"skills": [
@@ -29,13 +29,13 @@
 		"id": "2",
 		"main": "no",
 		"title": "Booki – Intégration HTML & CSS d’une page d’accueil responsive",
-		"cover": "/images/projects/Booki/image1.png",
+		"cover": "/images/projects/Booki/image1.jpg",
 		"pictures": [
-			"/images/projects/Booki/image1.png",
-			"/images/projects/Booki/image2.png",
-			"/images/projects/Booki/image3.png",
-			"/images/projects/Booki/image4.png",
-			"/images/projects/Booki/image5.png"
+			"/images/projects/Booki/image1.jpg",
+			"/images/projects/Booki/image2.jpg",
+			"/images/projects/Booki/image3.jpg",
+			"/images/projects/Booki/image4.jpg",
+			"/images/projects/Booki/image5.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Dans un scénario d’alternance fictif chez la start-up Booki, j’ai été chargé d’intégrer l’interface de la page d’accueil de leur site. À partir de maquettes Figma pour mobile, tablette et desktop, j’ai développé une interface responsive en HTML et CSS, permettant aux utilisateurs de rechercher des hébergements et des activités dans une ville donnée, tout en respectant des contraintes techniques précises.",
 		"skills": [
@@ -57,13 +57,13 @@
 		"id": "3",
 		"main": "no",
 		"title": "Ohmyfood – Intégration mobile-first avec animations CSS",
-		"cover": "/images/projects/Ohmyfood/image1.png",
+		"cover": "/images/projects/Ohmyfood/image1.jpg",
 		"pictures": [
-			"/images/projects/Ohmyfood/image1.png",
-			"/images/projects/Ohmyfood/image2.png",
-			"/images/projects/Ohmyfood/image3.png",
-			"/images/projects/Ohmyfood/image4.png",
-			"/images/projects/Ohmyfood/image5.png"
+			"/images/projects/Ohmyfood/image1.jpg",
+			"/images/projects/Ohmyfood/image2.jpg",
+			"/images/projects/Ohmyfood/image3.jpg",
+			"/images/projects/Ohmyfood/image4.jpg",
+			"/images/projects/Ohmyfood/image5.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Ce projet m’a permis de développer un site mobile-first pour la startup fictive Ohmyfood, qui référence des menus de restaurants gastronomiques. L’objectif principal était de créer une interface responsive à partir de maquettes, tout en intégrant des animations CSS fluides pour améliorer l’expérience utilisateur. J’ai structuré les styles avec Sass, tout en respectant une approche modulaire du code.",
 		"skills": [
@@ -85,11 +85,11 @@
 		"id": "4",
 		"main": "no",
 		"title": "Print it – Dynamisation d’un site statique avec JavaScript",
-		"cover": "/images/projects/Print_it/image1.png",
+		"cover": "/images/projects/Print_it/image1.jpg",
 		"pictures": [
-			"/images/projects/Print_it/image1.png",
-			"/images/projects/Print_it/image2.png",
-			"/images/projects/Print_it/image3.png"
+			"/images/projects/Print_it/image1.jpg",
+			"/images/projects/Print_it/image2.jpg",
+			"/images/projects/Print_it/image3.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Ce projet avait pour objectif de dynamiser un site web statique pour l’imprimerie fictive Print it. J’ai implémenté un carrousel interactif en JavaScript, en manipulant le DOM et en gérant les événements pour enrichir l’expérience utilisateur. Le défi consistait à intégrer cette fonctionnalité tout en respectant la structure HTML existante et les attentes du client transmises via une vidéo de démonstration.",
 		"skills": [
@@ -112,12 +112,12 @@
 		"id": "5",
 		"main": "yes",
 		"title": "Sophie Bluel – Création d’une page web dynamique avec JavaScript",
-		"cover": "/images/projects/Sophie_Bluel/image1.png",
+		"cover": "/images/projects/Sophie_Bluel/image1.jpg",
 		"pictures": [
-			"/images/projects/Sophie_Bluel/image1.png",
-			"/images/projects/Sophie_Bluel/image2.png",
-			"/images/projects/Sophie_Bluel/image3.png",
-			"/images/projects/Sophie_Bluel/image4.png"
+			"/images/projects/Sophie_Bluel/image1.jpg",
+			"/images/projects/Sophie_Bluel/image2.jpg",
+			"/images/projects/Sophie_Bluel/image3.jpg",
+			"/images/projects/Sophie_Bluel/image4.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Dans ce projet, j’ai développé la page de portfolio dynamique de l’architecte d’intérieur Sophie Bluel. J’ai intégré les projets à partir d’une API REST, mis en place une page de connexion pour l’administrateur, et conçu une modale permettant l’upload d’images. Ce travail m’a permis de renforcer mes compétences en manipulation du DOM, en gestion des événements utilisateurs, ainsi qu’en communication avec un back-end via fetch.",
 		"skills": [
@@ -142,12 +142,12 @@
 		"id": "6",
 		"main": "yes",
 		"title": "Kasa – Application web de location immobilière avec React",
-		"cover": "/images/projects/Kasa/image1.png",
+		"cover": "/images/projects/Kasa/image1.jpg",
 		"pictures": [
-			"/images/projects/Kasa/image1.png",
-			"/images/projects/Kasa/image2.png",
-			"/images/projects/Kasa/image3.png",
-			"/images/projects/Kasa/image4.png"
+			"/images/projects/Kasa/image1.jpg",
+			"/images/projects/Kasa/image2.jpg",
+			"/images/projects/Kasa/image3.jpg",
+			"/images/projects/Kasa/image4.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai développé le front-end de l’application Kasa, une plateforme de location d’appartements entre particuliers. En suivant les maquettes Figma, j’ai créé une SPA avec React et React Router, intégré un carrousel fonctionnel pour les galeries photos, stylisé l’interface avec Sass, et mis en place des animations CSS pour une meilleure expérience utilisateur. Ce projet m’a permis de renforcer mes compétences en développement front-end moderne avec Vite.",
 		"skills": [
@@ -172,12 +172,12 @@
 		"id": "7",
 		"main": "no",
 		"title": "Nina Carducci – Optimisation SEO et performance d’un site de photographe",
-		"cover": "/images/projects/Nina_Carducci/image1.png",
+		"cover": "/images/projects/Nina_Carducci/image1.jpg",
 		"pictures": [
-			"/images/projects/Nina_Carducci/image1.png",
-			"/images/projects/Nina_Carducci/image2.png",
-			"/images/projects/Nina_Carducci/image3.png",
-			"/images/projects/Nina_Carducci/image4.png"
+			"/images/projects/Nina_Carducci/image1.jpg",
+			"/images/projects/Nina_Carducci/image2.jpg",
+			"/images/projects/Nina_Carducci/image3.jpg",
+			"/images/projects/Nina_Carducci/image4.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai mené un audit complet du site de Nina Carducci, photographe professionnelle, afin d’en améliorer la performance, l’accessibilité et le référencement. Grâce à des outils comme Lighthouse et Wave, j’ai identifié les points à corriger, réduit le poids des médias, structuré le HTML pour une meilleure lisibilité par les moteurs de recherche, ajouté les métadonnées Schema.org pour le SEO local, et optimisé les balises Open Graph pour le partage sur les réseaux sociaux.",
 		"skills": [
@@ -201,13 +201,13 @@
 		"id": "8",
 		"main": "no",
 		"title": "724events – Débogage et finalisation d’un site vitrine React",
-		"cover": "/images/projects/724_events/image1.png",
+		"cover": "/images/projects/724_events/image1.jpg",
 		"pictures": [
-			"/images/projects/724_events/image1.png",
-			"/images/projects/724_events/image2.png",
-			"/images/projects/724_events/image3.png",
-			"/images/projects/724_events/image4.png",
-			"/images/projects/724_events/image5.png"
+			"/images/projects/724_events/image1.jpg",
+			"/images/projects/724_events/image2.jpg",
+			"/images/projects/724_events/image3.jpg",
+			"/images/projects/724_events/image4.jpg",
+			"/images/projects/724_events/image5.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai été chargé de reprendre le développement d’un site one-page pour l’agence événementielle 724events. Le site présentait plusieurs bugs qui nuisaient à l’expérience utilisateur. J’ai utilisé les outils de développement Chrome et React pour identifier les erreurs, corrigé le code JavaScript/React, et finalisé le cahier de recette avec des scénarios de tests. Ce projet m’a permis de renforcer mes compétences en débogage et en validation fonctionnelle d’applications React.",
 		"skills": [
@@ -229,12 +229,12 @@
 		"id": "9",
 		"main": "yes",
 		"title": "Argent Bank – Développement du front-end d’une application bancaire avec React et Redux",
-		"cover": "/images/projects/Argent_Bank/image1.png",
+		"cover": "/images/projects/Argent_Bank/image1.jpg",
 		"pictures": [
-			"/images/projects/Argent_Bank/image1.png",
-			"/images/projects/Argent_Bank/image2.png",
-			"/images/projects/Argent_Bank/image3.png",
-			"/images/projects/Argent_Bank/image4.png"
+			"/images/projects/Argent_Bank/image1.jpg",
+			"/images/projects/Argent_Bank/image2.jpg",
+			"/images/projects/Argent_Bank/image3.jpg",
+			"/images/projects/Argent_Bank/image4.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai développé l’interface utilisateur de l’application bancaire Argent Bank en React. Cette application permet aux utilisateurs de se connecter de manière sécurisée, de consulter leur profil et de modifier leur pseudo. Le projet inclut la mise en place de l’authentification, la protection des routes, l’intégration des appels API REST via Axios, et la gestion du state global avec Redux. Swagger a été utilisé pour modéliser les routes API. Ce projet m’a permis de consolider mes compétences dans le développement d’applications React complexes, intégrées à un back-end.",
 		"skills": [
@@ -259,13 +259,13 @@
 		"id": "10",
 		"main": "no",
 		"title": "MenuMaker by Qwenta - Planification d’un site web pour restaurateurs",
-		"cover": "/images/projects/MenuMaker/image1.png",
+		"cover": "/images/projects/MenuMaker/image1.jpg",
 		"pictures": [
-			"/images/projects/MenuMaker/image1.png",
-			"/images/projects/MenuMaker/image2.png",
-			"/images/projects/MenuMaker/image3.png",
-			"/images/projects/MenuMaker/image4.png",
-			"/images/projects/MenuMaker/image5.png"
+			"/images/projects/MenuMaker/image1.jpg",
+			"/images/projects/MenuMaker/image2.jpg",
+			"/images/projects/MenuMaker/image3.jpg",
+			"/images/projects/MenuMaker/image4.jpg",
+			"/images/projects/MenuMaker/image5.jpg"
 		],
 		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Ce projet m’a permis d’aborder la gestion d’un projet web sans intervention directe sur le code. J’ai planifié le développement d’un site destiné aux restaurateurs pour leur permettre de créer facilement leurs menus. J’ai rédigé les spécifications techniques à partir des besoins fonctionnels, organisé les tâches sous forme de Kanban dans Notion, mis en place une veille technologique avec Feedly, et préparé une présentation technique destinée au client.",
 		"skills": [
