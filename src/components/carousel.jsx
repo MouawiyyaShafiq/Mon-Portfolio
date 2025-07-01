@@ -1,6 +1,6 @@
 import { useState } from "react"
-import arrowLeft from "../../public/images/ui/arrow_back.png"
-import arrowRight from "../../public/images/ui/arrow_forward.png"
+import arrowLeft from "/images/ui/arrow_back.png"
+import arrowRight from "/images/ui/arrow_forward.png"
 import { easeInOut, motion } from "framer-motion"
 
 

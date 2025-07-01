@@ -1,297 +1,288 @@
 [
 	{
-		"id": "c67ab8a7",
+		"id": "1",
+		"main": "no",
+		"title": "Riding Cities – Mise à jour HTML d’un site associatif",
+		"cover": "/images/projects/Riding_Cities/image1.png",
+		"pictures": [
+			"/images/projects/Riding_Cities/image1.png",
+			"/images/projects/Riding_Cities/image2.png",
+			"/images/projects/Riding_Cities/image3.png"
+		],
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Dans un contexte fictif de stage chez l’agence Webonzaï, j’ai été chargé de mettre à jour le site web de Riding Cities, une association de skate. À partir d’une maquette Figma, j’ai intégré une nouvelle section présentant les membres fondateurs, et modifié la section de téléchargement pour y ajouter des boutons permettant l’accès aux plannings enfants et adultes.",
+		"skills": [
+			"- Intégration HTML à partir d’une maquette",
+			"- Manipulation de contenu statique",
+			"- Utilisation de Figma pour le suivi de design",
+			"- Structuration sémantique HTML5",
+			"- Travail dans un environnement de développement local"
+		],
+		"tags": [
+			"HTML5",
+			"CSS",
+			"Figma"
+		],
+		"link" : "https://github.com/MouawiyyaShafiq/Riding_Cities",
+		"linkSite": "https://mouawiyyashafiq.github.io/Riding_Cities/"
+	},
+	{
+		"id": "2",
+		"main": "no",
+		"title": "Booki – Intégration HTML & CSS d’une page d’accueil responsive",
+		"cover": "/images/projects/Booki/image1.png",
+		"pictures": [
+			"/images/projects/Booki/image1.png",
+			"/images/projects/Booki/image2.png",
+			"/images/projects/Booki/image3.png",
+			"/images/projects/Booki/image4.png",
+			"/images/projects/Booki/image5.png"
+		],
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Dans un scénario d’alternance fictif chez la start-up Booki, j’ai été chargé d’intégrer l’interface de la page d’accueil de leur site. À partir de maquettes Figma pour mobile, tablette et desktop, j’ai développé une interface responsive en HTML et CSS, permettant aux utilisateurs de rechercher des hébergements et des activités dans une ville donnée, tout en respectant des contraintes techniques précises.",
+		"skills": [
+			"- Intégration responsive HTML/CSS",
+			"- Découpage de maquette Figma",
+			"- Utilisation des media queries",
+			"- Respect des contraintes techniques d’un brief",
+			"- Optimisation de l’affichage multi-écrans"
+		],
+		"tags": [
+			"HTML5",
+			"CSS",
+			"Figma"
+		],
+		"link" : "https://github.com/MouawiyyaShafiq/Booki",
+		"linkSite": "https://mouawiyyashafiq.github.io/Booki/"
+	},
+	{
+		"id": "3",
+		"main": "no",
+		"title": "Ohmyfood – Intégration mobile-first avec animations CSS",
+		"cover": "/images/projects/Ohmyfood/image1.png",
+		"pictures": [
+			"/images/projects/Ohmyfood/image1.png",
+			"/images/projects/Ohmyfood/image2.png",
+			"/images/projects/Ohmyfood/image3.png",
+			"/images/projects/Ohmyfood/image4.png",
+			"/images/projects/Ohmyfood/image5.png"
+		],
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Ce projet m’a permis de développer un site mobile-first pour la startup fictive Ohmyfood, qui référence des menus de restaurants gastronomiques. L’objectif principal était de créer une interface responsive à partir de maquettes, tout en intégrant des animations CSS fluides pour améliorer l’expérience utilisateur. J’ai structuré les styles avec Sass, tout en respectant une approche modulaire du code.",
+		"skills": [
+			"- Intégration mobile-first",
+			"- Responsive design",
+			"- Animations CSS",
+			"- Structuration du code avec Sass",
+			"- Découpage de maquette Figma",
+			"- Versionnage avec Git & GitHub"
+		],
+		"tags": [
+			"HTML5",
+			"SASS"
+		],
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P4",
+		"linkSite": "https://mouawiyyashafiq.github.io/Openclassrooms-P4/"
+	},
+	{
+		"id": "4",
+		"main": "no",
+		"title": "Print it – Dynamisation d’un site statique avec JavaScript",
+		"cover": "/images/projects/Print_it/image1.png",
+		"pictures": [
+			"/images/projects/Print_it/image1.png",
+			"/images/projects/Print_it/image2.png",
+			"/images/projects/Print_it/image3.png"
+		],
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Ce projet avait pour objectif de dynamiser un site web statique pour l’imprimerie fictive Print it. J’ai implémenté un carrousel interactif en JavaScript, en manipulant le DOM et en gérant les événements pour enrichir l’expérience utilisateur. Le défi consistait à intégrer cette fonctionnalité tout en respectant la structure HTML existante et les attentes du client transmises via une vidéo de démonstration.",
+		"skills": [
+			"- Manipulation du DOM avec JavaScript",
+			"- Gestion des événements",
+			"- Création d’un carrousel interactif",
+			"- Intégration dans un site statique",
+			"- Utilisation de Git & GitHub",
+			"- Travail à partir d'une démonstration client"
+		],
+		"tags": [
+			"JavaScript",
+			"HTML5",
+			"CSS"
+		],
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P5",
+		"linkSite": "https://mouawiyyashafiq.github.io/Openclassrooms-P5/"
+	},
+	{
+		"id": "5",
 		"main": "yes",
-		"title": "Appartement cosy",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Sophie Bluel – Création d’une page web dynamique avec JavaScript",
+		"cover": "/images/projects/Sophie_Bluel/image1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+			"/images/projects/Sophie_Bluel/image1.png",
+			"/images/projects/Sophie_Bluel/image2.png",
+			"/images/projects/Sophie_Bluel/image3.png",
+			"/images/projects/Sophie_Bluel/image4.png"
 		],
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"equipments": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
-			"Frigo",
-			"WIFI"
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Dans ce projet, j’ai développé la page de portfolio dynamique de l’architecte d’intérieur Sophie Bluel. J’ai intégré les projets à partir d’une API REST, mis en place une page de connexion pour l’administrateur, et conçu une modale permettant l’upload d’images. Ce travail m’a permis de renforcer mes compétences en manipulation du DOM, en gestion des événements utilisateurs, ainsi qu’en communication avec un back-end via fetch.",
+		"skills": [
+			"- Manipulation du DOM avec JavaScript",
+			"- Consommation d'une API REST",
+			"- Création d’une page de login",
+			"- Gestion d’une modale d’upload de fichiers",
+			"- Gestion des événements",
+			"- Communication front-end / back-end",
+			"- Utilisation de Git & GitHub"
 		],
 		"tags": [
-			"Batignolle",
-			"Montmartre"
+			"JavaScript",
+			"HTML5",
+			"Swagger",
+			"CSS"
 		],
-		"link" : "https://github.com/MouawiyyaShafiq"
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P6",
+		"linkSite": ""
 	},
 	{
-		"id": "b9123946",
+		"id": "6",
 		"main": "yes",
-		"title": "Magnifique appartement proche Canal Saint Martin",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"title": "Kasa – Application web de location immobilière avec React",
+		"cover": "/images/projects/Kasa/image1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
+			"/images/projects/Kasa/image1.png",
+			"/images/projects/Kasa/image2.png",
+			"/images/projects/Kasa/image3.png",
+			"/images/projects/Kasa/image4.png"
 		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-		"equipments": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision"
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai développé le front-end de l’application Kasa, une plateforme de location d’appartements entre particuliers. En suivant les maquettes Figma, j’ai créé une SPA avec React et React Router, intégré un carrousel fonctionnel pour les galeries photos, stylisé l’interface avec Sass, et mis en place des animations CSS pour une meilleure expérience utilisateur. Ce projet m’a permis de renforcer mes compétences en développement front-end moderne avec Vite.",
+		"skills": [
+			"- Création d’une application avec React & Vite",
+			"- Utilisation de React Router",
+			"- Gestion d’un carrousel d’images",
+			"- Intégration responsive à partir de maquettes Figma",
+			"- Stylisation avec Sass",
+			"- Animations CSS (Collapse, transitions)",
+			"- Structuration de composants réutilisables"
 		],
 		"tags": [
-			"Canal Saint Martin",
-			"République",
-			"Appartement"
+			"React",
+			"SASS",
+			"Vite",
+			"JavaScript"
 		],
-		"link" : "https://github.com/MouawiyyaShafiq"
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P7",
+		"linkSite": ""
 	},
 	{
-		"id": "46d188c5",
+		"id": "7",
+		"main": "no",
+		"title": "Nina Carducci – Optimisation SEO et performance d’un site de photographe",
+		"cover": "/images/projects/Nina_Carducci/image1.png",
+		"pictures": [
+			"/images/projects/Nina_Carducci/image1.png",
+			"/images/projects/Nina_Carducci/image2.png",
+			"/images/projects/Nina_Carducci/image3.png",
+			"/images/projects/Nina_Carducci/image4.png"
+		],
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai mené un audit complet du site de Nina Carducci, photographe professionnelle, afin d’en améliorer la performance, l’accessibilité et le référencement. Grâce à des outils comme Lighthouse et Wave, j’ai identifié les points à corriger, réduit le poids des médias, structuré le HTML pour une meilleure lisibilité par les moteurs de recherche, ajouté les métadonnées Schema.org pour le SEO local, et optimisé les balises Open Graph pour le partage sur les réseaux sociaux.",
+		"skills": [
+			"- Audit SEO avec Lighthouse et Wave",
+			"- Optimisation des performances web",
+			"- Amélioration de l’accessibilité ",
+			"- Implémentation de données structurées Schema.org",
+			"- Ajout de métadonnées pour réseaux sociaux",
+			"- Optimisation des images",
+			"- Référencement local"
+		],
+		"tags": [
+			"HTML5",
+			"CSS",
+			"JavaScript"
+		],
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P8",
+		"linkSite": "https://mouawiyyashafiq.github.io/Openclassrooms-P8/"
+	},
+	{
+		"id": "8",
+		"main": "no",
+		"title": "724events – Débogage et finalisation d’un site vitrine React",
+		"cover": "/images/projects/724_events/image1.png",
+		"pictures": [
+			"/images/projects/724_events/image1.png",
+			"/images/projects/724_events/image2.png",
+			"/images/projects/724_events/image3.png",
+			"/images/projects/724_events/image4.png",
+			"/images/projects/724_events/image5.png"
+		],
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai été chargé de reprendre le développement d’un site one-page pour l’agence événementielle 724events. Le site présentait plusieurs bugs qui nuisaient à l’expérience utilisateur. J’ai utilisé les outils de développement Chrome et React pour identifier les erreurs, corrigé le code JavaScript/React, et finalisé le cahier de recette avec des scénarios de tests. Ce projet m’a permis de renforcer mes compétences en débogage et en validation fonctionnelle d’applications React.",
+		"skills": [
+			"- Débogage avec Chrome DevTools et React Developer Tools",
+			"- Correction de bugs JavaScript/React",
+			"- Tests fonctionnels et unitaires",
+			"- Rédaction d’un cahier de recette",
+			"- Versionnage avec Git et GitHub",
+			"- Maintenance d’application React"
+		],
+		"tags": [
+			"React",
+			"JavaScript"
+		],
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P9",
+		"linkSite": ""
+	},
+	{
+		"id": "9",
 		"main": "yes",
-		"title": "Studio de charme - Buttes Chaumont",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+		"title": "Argent Bank – Développement du front-end d’une application bancaire avec React et Redux",
+		"cover": "/images/projects/Argent_Bank/image1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
+			"/images/projects/Argent_Bank/image1.png",
+			"/images/projects/Argent_Bank/image2.png",
+			"/images/projects/Argent_Bank/image3.png",
+			"/images/projects/Argent_Bank/image4.png"
 		],
-		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
-		"equipments": [
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision",
-			"Sèche Cheveux"
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. J’ai développé l’interface utilisateur de l’application bancaire Argent Bank en React. Cette application permet aux utilisateurs de se connecter de manière sécurisée, de consulter leur profil et de modifier leur pseudo. Le projet inclut la mise en place de l’authentification, la protection des routes, l’intégration des appels API REST via Axios, et la gestion du state global avec Redux. Swagger a été utilisé pour modéliser les routes API. Ce projet m’a permis de consolider mes compétences dans le développement d’applications React complexes, intégrées à un back-end.",
+		"skills": [
+			"- Développement React avec Vite",
+			"- Gestion de l’état avec Redux",
+			"- Intégration d’API REST avec Axios",
+			"- Routing sécurisé avec React Router",
+			"- Authentification utilisateur",
+			"- Modélisation des routes API avec Swagger",
+			"- Bonnes pratiques de développement front-end"
 		],
 		"tags": [
-			"Buttes Chaumont",
-			"Laumière",
-			"Studio"
+			"React",
+			"RTK",
+			"SASS",
+			"Vite"
 		],
-		"link" : "https://github.com/MouawiyyaShafiq"
+		"link" : "https://github.com/MouawiyyaShafiq/Openclassrooms-P10-FE",
+		"linkSite": ""
 	},
 	{
-		"id": "7af00cd6",
+		"id": "10",
 		"main": "no",
-		"title": "Nid douillet au coeur du 11ème",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+		"title": "MenuMaker by Qwenta - Planification d’un site web pour restaurateurs",
+		"cover": "/images/projects/MenuMaker/image1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
+			"/images/projects/MenuMaker/image1.png",
+			"/images/projects/MenuMaker/image2.png",
+			"/images/projects/MenuMaker/image3.png",
+			"/images/projects/MenuMaker/image4.png",
+			"/images/projects/MenuMaker/image5.png"
 		],
-		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
-		"equipments": [
-			"Micro-Ondes",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Climatisation",
-			"Télévision"
+		"description": "Projet réalisé dans le cadre de ma formation de développeur web. Ce projet m’a permis d’aborder la gestion d’un projet web sans intervention directe sur le code. J’ai planifié le développement d’un site destiné aux restaurateurs pour leur permettre de créer facilement leurs menus. J’ai rédigé les spécifications techniques à partir des besoins fonctionnels, organisé les tâches sous forme de Kanban dans Notion, mis en place une veille technologique avec Feedly, et préparé une présentation technique destinée au client.",
+		"skills": [
+			"Rédaction de spécifications techniques",
+			"Planification de projet web",
+			"Méthode agile / Kanban",
+			"Gestion de projet avec Notion",
+			"Veille technologique",
+			"Analyse fonctionnelle",
+			"Découpage en tâches techniques"
 		],
 		"tags": [
-			"Parmentier",
-			"Marais",
-			"Parc",
-			"Night Life"
+			"Notion",
+			"Figma",
+			"Feedly"
 		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "0979876d",
-		"main": "no",
-		"title": "Appartement de Standing - 10e",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
-		],
-		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
-		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Parking"
-		],
-		"tags": [
-			"Goncourt",
-			"Proche commerces"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "f72a452f",
-		"main": "no",
-		"title": "Studio d'artiste",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
-		],
-		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
-		"equipments": [
-			"Chambre Séparée",
-			"Parking"
-		],
-		"tags": [
-			"Montmartre",
-			"Culture",
-			"Charme"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "b4c67936",
-		"main": "no",
-		"title": "Cheap - Studio 18ème",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg"
-		],
-		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
-		"equipments": [
-			"Salle de bains",
-			"Frigo",
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Bureau",
-			"Parking"
-		],
-		"tags": [
-			"Transports",
-			"Cheap",
-			"18ème"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "bc6f7112",
-		"main": "no",
-		"title": "Superbe appartement proche Tour Eiffel",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg"
-		],
-		"description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. À vous de venir découvrir Paris !",
-		"equipments": [
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Parking",
-			"Lit King Size",
-			"Ascenseur"
-		],
-		"tags": [
-			"Luxe",
-			"Tour Eiffel",
-			"T3",
-			"6ème"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "cb2f9222",
-		"main": "no",
-		"title": "Suite familiale",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-5.jpg"
-		],
-		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
-		"equipments": [
-			"Climatisation",
-			"Machine à laver",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Parking"
-		],
-		"tags": [
-			"Montparnasse",
-			"Commerces",
-			"Famille"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "d60ca600",
-		"main": "no",
-		"title": "Appartement moderne sur parc",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-9-4.jpg"
-		],
-		"description": "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux. Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
-		"equipments": [
-			"Vue Parc",
-			"Chauffage",
-			"Sèche linge",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Ascenseur"
-		],
-		"tags": [
-			"Père Lachaise",
-			"11e",
-			"Metro 3",
-			"Metro 2"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
-	},
-	{
-		"id": "2cf259e1",
-		"main": "no",
-		"title": "Charmant Studio Marais",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
-		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-10-4.jpg"
-		],
-		"description": "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine toute équipée est particulièrement pratique.",
-		"equipments": [
-			"Clic-clac",
-			"Four",
-			"Sèche Cheveux",
-			"Wi-fi"
-		],
-		"tags": [
-			"Marais",
-			"Studio",
-			"Parc"
-		],
-		"link" : "https://github.com/MouawiyyaShafiq"
+		"link" : "https://github.com/MouawiyyaShafiq/MenuMaker",
+		"linkSite": ""
 	}
 ]

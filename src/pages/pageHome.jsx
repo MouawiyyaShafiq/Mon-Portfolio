@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import photoProfil from '../../public/images/ui/photo_de_profil.jpg'
+import photoProfil from '/images/ui/photo_de_profil.jpg'
 import { NavLink, useNavigate } from 'react-router-dom'
 import Card from "../components/card"
 import PageContact from './pageContact'

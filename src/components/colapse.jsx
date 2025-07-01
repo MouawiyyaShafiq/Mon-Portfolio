@@ -1,5 +1,5 @@
 import { useState } from "react";
-import colapseArrow from "../../public/images/ui/colapse_arrow.png"
+import colapseArrow from "/images/ui/colapse_arrow.png"
 
 function Colapse ({colapseTitle,colapseContent}) {
 

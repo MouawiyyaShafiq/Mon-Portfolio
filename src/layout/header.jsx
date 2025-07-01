@@ -3,7 +3,7 @@ import { easeInOut, motion,} from "framer-motion"
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import logo from "../../public/images/logos/Portfolio_logo.svg";
+import logo from "/images/logos/Portfolio_logo.svg";
 
 function Header () {
 

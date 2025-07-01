@@ -96,17 +96,24 @@ function PageProject () {
                     transition={{duration:0.3, delay: 0.6, ease :easeInOut}} 
                 >
                     <Colapse colapseTitle="Description" colapseContent={currentProject.description}/>
-                    <Colapse colapseTitle="Compétences acquises" colapseContent={currentProject.equipments}/>    
+                    <Colapse colapseTitle="Compétences acquises" colapseContent={currentProject.skills}/>    
                 </motion.div>
             </div>
-            <motion.a className="project_link" href={currentProject.link}
+            <motion.a className="project_link" href={currentProject.link} target="_blank"
                 variants={projectLeftVariants}
                 initial="hidden"
                 animate={controls}
                 transition={{duration:0.3, delay: 0.8, ease :easeInOut}}
             >Consulter le projet sur GitHub</motion.a>
-            
-            
+            {currentProject.linkSite?
+            <motion.a className="project_linkSite" href={currentProject.linkSite} target="_blank"
+                variants={projectLeftVariants}
+                initial="hidden"
+                animate={controls}
+                transition={{duration:0.3, delay: 1, ease :easeInOut}}
+            >Démo en ligne via GitHub Pages</motion.a>  
+            : null
+            }
         </section>
     )}
 

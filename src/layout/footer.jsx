@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 import { easeInOut, motion, useAnimation} from "framer-motion"
 import { useEffect,} from "react"
 import { useInView } from "react-intersection-observer"
-import logo from "../../public/images/logos/Portfolio_logo.svg";
+import logo from "/images/logos/Portfolio_logo.svg";
 
 function Footer () {
 
