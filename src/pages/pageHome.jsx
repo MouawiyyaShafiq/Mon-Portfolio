@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import photoProfil from '/images/ui/photo_de_profil.jpg'
 import { NavLink, useNavigate } from 'react-router-dom'
 import Card from "../components/card"
 import PageContact from './pageContact'
@@ -16,7 +15,7 @@ function PageHome () {
         async function fetchData() {
 
             try {
-                const response = await fetch("/projectList.json");
+                const response = await fetch(`${import.meta.env.BASE_URL}projectList.json`);
     
                 if (!response) {
                     throw new Error(`${response.status}`);
@@ -122,7 +121,7 @@ function PageHome () {
                     animate={presentationControls}
                     transition={{duration: 0.4, ease: easeInOut}}
                 >
-                    <img className="presentation_imgContainer_img" src={photoProfil} alt='photo de profil'></img>
+                    <img className="presentation_imgContainer_img" src={`${import.meta.env.BASE_URL}images/ui/photo_de_profil.jpg`} alt='photo de profil'></img>
                 </motion.div>
             </section>
             <section className="mainProjects" >

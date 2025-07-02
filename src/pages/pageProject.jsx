@@ -21,7 +21,7 @@ function PageProject () {
         async function fetchData() {
 
             try {
-                const response = await fetch("/projectList.json");
+                const response = await fetch(`${import.meta.env.BASE_URL}projectList.json`);
     
                 if (!response) {
                     throw new Error(`${response.status}`);

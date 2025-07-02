@@ -1,7 +1,8 @@
 import { useState } from "react";
-import colapseArrow from "/images/ui/colapse_arrow.png"
 
 function Colapse ({colapseTitle,colapseContent}) {
+
+    const colapseArrow = `${import.meta.env.BASE_URL}images/ui/colapse_arrow.png`
 
     const [isOpen , setIsOpen] = useState(false)
 

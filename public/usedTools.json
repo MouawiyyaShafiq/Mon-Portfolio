@@ -1,66 +1,66 @@
 [
     {
-        "logo" : "/images/logos/html5.svg",
+        "logo" : "images/logos/html5.svg",
         "title" : "HTML 5",
         "color" : "#E34F26"
     },
     {
-        "logo" : "/images/logos/css.svg",
+        "logo" : "images/logos/css.svg",
         "title" : "CSS",
         "color" : "#663399"
     },
     {
-        "logo" : "/images/logos/javascript.svg",
+        "logo" : "images/logos/javascript.svg",
         "title" : "JS",
         "color" : "#F7DF1E"
     },
     {
-        "logo" : "/images/logos/react.svg",
+        "logo" : "images/logos/react.svg",
         "title" : "React",
         "color" : "#61DAFB"
     },
     {
-        "logo" : "/images/logos/redux.svg",
+        "logo" : "images/logos/redux.svg",
         "title" : "RTK",
         "color" : "#764ABC"
     },
     {
-        "logo" : "/images/logos/sass.svg",
+        "logo" : "images/logos/sass.svg",
         "title" : "SASS",
         "color" : "#CC6699"
     },
     {
-        "logo" : "/images/logos/vite.svg",
+        "logo" : "images/logos/vite.svg",
         "title" : "Vite",
         "color" : "#646CFF"
     },
     {
-        "logo" : "/images/logos/git.svg",
+        "logo" : "images/logos/git.svg",
         "title" : "Git",
         "color" : "#F05032"
     },
     {
-        "logo" : "/images/logos/github.svg",
+        "logo" : "images/logos/github.svg",
         "title" : "Github",
         "color" : "#5c5b5b"
     },
     {
-        "logo" : "/images/logos/figma.svg",
+        "logo" : "images/logos/figma.svg",
         "title" : "Figma",
         "color" : "#F24E1E"
     },
     {
-        "logo" : "/images/logos/visual_studio.svg",
+        "logo" : "images/logos/visual_studio.svg",
         "title" : "Visual Studio",
         "color" : "#5C2D91"
     },
     {
-        "logo" : "/images/logos/swagger.svg",
+        "logo" : "images/logos/swagger.svg",
         "title" : "Swagger",
         "color" : "#85EA2D"
     },
     {
-        "logo" : "/images/logos/framer.svg",
+        "logo" : "images/logos/framer.svg",
         "title" : "Framer motion",
         "color" : "#0055FF"
     }

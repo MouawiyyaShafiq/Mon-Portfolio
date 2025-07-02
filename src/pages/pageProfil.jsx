@@ -15,7 +15,7 @@ function PageAbout () {
         async function fetchData() {
 
             try {
-                const response = await fetch("/usedTools.json");
+                const response = await fetch(`${import.meta.env.BASE_URL}usedTools.json`);
     
                 if (!response) {
                     throw new Error(`${response.status}`);
@@ -159,7 +159,7 @@ function PageAbout () {
                 >
                     {tools.map((tool)=>{ 
                         return <motion.div key={tool.title} className="presentationTools_container_tool" variants={toolVariants}>
-                            <img src={tool.logo} alt="tool logo" style={{backgroundColor: tool.color, opacity : 0.9}}></img>
+                            <img src={`${import.meta.env.BASE_URL}${tool.logo}`} alt="tool logo" style={{backgroundColor: tool.color, opacity : 0.9}}></img>
                             <h3>{tool.title}</h3>
                         </motion.div>})}
                 </motion.div>

@@ -1,12 +1,58 @@
-# React + Vite
+# Mon-Portfolio – Portfolio Développeur React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet réalisé dans le cadre de ma formation de développeur web.  
+Ce projet consiste à créer un portfolio en ligne dynamique avec React, permettant de présenter mon parcours, mes compétences et mes projets.
 
-Currently, two official plugins are available:
+# Contexte
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet final de formation vise à construire un site personnel de développeur.  
+Contrairement à un site statique classique, j’ai choisi de développer ce portfolio en React pour bénéficier d’une interface moderne et dynamique, tout en garantissant un site responsive et professionnel.
 
-## Expanding the ESLint configuration
+# Objectifs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Créer un site web personnel pour présenter mon profil, mes compétences et mes projets.
+- Intégrer au moins deux projets avec une description, les compétences développées, et des liens vers les sources ou les sites.
+- Déployer le site sur GitHub Pages pour le rendre accessible publiquement.
+- Assurer une expérience utilisateur optimale sur tous types d’appareils grâce au responsive design.
+- Optimiser la performance, le référencement SEO et débugger l’application pour garantir sa qualité.
+
+# Développement
+
+Ce portfolio est un site React complet, construit avec Vite comme bundler, et utilise plusieurs bibliothèques telles que React Router, Framer Motion, et EmailJS.  
+Le site consomme des fichiers JSON pour la gestion des projets et affiche les données de manière dynamique.
+
+# Technologies utilisées
+
+- React (Vite)
+- React Router DOM
+- Framer Motion (animations)
+- EmailJS (formulaire de contact)
+- HTML5 & CSS3 (Sass partiellement)
+- GitHub Pages (hébergement)
+
+# Lien vers le site en ligne
+
+https://mouawiyyashafiq.github.io/Mon-Portfolio/#/
+
+# Lancer le projet en local
+
+1. Cloner le dépôt :  
+    ```bash
+    git clone https://github.com/MouawiyyaShafiq/Mon-Portfolio.git
+
+2. Se déplacer dans le dossier du projet :
+
+bash
+cd Mon-Portfolio
+Installer les dépendances :
+
+bash
+npm install
+Lancer le serveur de développement :
+
+bash
+npm run dev
+Ouvrir http://localhost:5173 dans votre navigateur.
+
+Auteur
+Shafiq Mouawiyya — Développeur web junior

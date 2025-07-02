@@ -1,10 +1,11 @@
 import { useState } from "react"
-import arrowLeft from "/images/ui/arrow_back.png"
-import arrowRight from "/images/ui/arrow_forward.png"
 import { easeInOut, motion } from "framer-motion"
 
 
 function Carousel ({carouselImgs}) {
+
+    const arrowLeft = `${import.meta.env.BASE_URL}images/ui/arrow_back.png`
+    const arrowRight = `${import.meta.env.BASE_URL}images/ui/arrow_forward.png`
 
     const [currentImg, setCurrentImg] = useState(0)
 
@@ -36,7 +37,7 @@ function Carousel ({carouselImgs}) {
     return (
         <>
             <section className={`carousel`}>
-                <motion.img className={`carousel_img`} src={carouselImgs[currentImg]} alt="Image illustrative de la location"
+                <motion.img className={`carousel_img`} src={`${import.meta.env.BASE_URL}${carouselImgs[currentImg]}`} alt="Image illustrative du projet"
                     key={currentImg}
                     initial={{ opacity: 0,}}
                     animate={{ opacity: 1,}}
