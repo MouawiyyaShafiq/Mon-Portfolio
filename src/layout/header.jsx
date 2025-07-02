@@ -8,12 +8,12 @@ import logo from "/images/logos/Portfolio_logo.svg";
 function Header () {
 
     const headerVariants = {
-        hidden: {opacity: 0, y: -75},
+        hidden: {opacity: 0, y: -20},
         visible: {opacity: 1, y: 0}
     };
 
     const svgVariants = {
-        hidden: {opacity: 0, x: -75},
+        hidden: {opacity: 0, x: -20},
         visible: {opacity: 1, x: 0}
     };
 
@@ -57,6 +57,7 @@ function Header () {
             <motion.nav className="header_nav"
                 variants={navVariants}
                 animate={mainControls}
+                initial="hidden"
                 transition={{duration: 0.3, ease: easeInOut}}
             >   
                 <motion.div variants={navChildVariants}>

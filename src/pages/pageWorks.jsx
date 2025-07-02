@@ -38,7 +38,7 @@ function PageWorks () {
     }, [])
 
     const projectsTitleVariants = {
-        hidden: { opacity: 0, y: -100 },
+        hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
     }
 
@@ -48,7 +48,7 @@ function PageWorks () {
     }
 
     const cardVariants = {
-        hidden: { opacity: 0, x: -100 },
+        hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0, transition: {duration: 0.3 , ease: easeInOut} },
     }
 

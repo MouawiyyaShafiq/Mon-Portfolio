@@ -54,7 +54,7 @@ function PageAbout () {
 
 
     const colapseContainerTitleVariants = {
-        hidden: { opacity: 0, y: -100 },
+        hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
     }
 
@@ -64,24 +64,13 @@ function PageAbout () {
     }
 
     const colapseVariants = {
-        hidden: { opacity: 0, x: -100 },
+        hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0, transition: {duration: 0.3 , ease: easeInOut} },
     }
 
-    const { ref: refToolsContainer, inView : toolsContainerIsInView } = useInView({threshold : 0.3})
-    const toolsContainerControls = useAnimation()
-
-    useEffect(() => {
-        if (toolsContainerIsInView ) {
-        toolsContainerControls.start("visible")
-        } else {
-        toolsContainerControls.start("hidden")
-        }
-    }, [toolsContainerIsInView ]);
-
 
     const toolsContainerTitleVariants = {
-        hidden: { opacity: 0, y: -100 },
+        hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
     }
 
@@ -91,7 +80,7 @@ function PageAbout () {
     }
 
     const toolVariants = {
-        hidden: { opacity: 0, x: -100 },
+        hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0, transition: {duration: 0.2 , ease: easeInOut} },
     }
 
@@ -145,17 +134,17 @@ function PageAbout () {
                 </motion.div>
                 
             </motion.section>
-            <section className="presentationTools" ref={refToolsContainer}>
+            <section className="presentationTools" >
                 <motion.h2 className="presentationTools_title"
                     variants={toolsContainerTitleVariants}
                     initial="hidden"
-                    animate={toolsContainerControls}
+                    animate="visible"
                     transition={{duration: 0.3, delay:0.5, ease: easeInOut}}
                 >J'ai pu travailler avec</motion.h2>
                 <motion.div className="presentationTools_container"
                     variants={toolsContainerVariants}
                     initial="hidden"
-                    animate={toolsContainerControls}
+                    animate="visible"
                 >
                     {tools.map((tool)=>{ 
                         return <motion.div key={tool.title} className="presentationTools_container_tool" variants={toolVariants}>

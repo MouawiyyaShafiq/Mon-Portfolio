@@ -7,17 +7,17 @@ import logo from "/images/logos/Portfolio_logo.svg";
 function Footer () {
 
     const svgVariants = {
-        hidden: {opacity: 0, x: -75},
+        hidden: {opacity: 0, x: -20},
         visible: {opacity: 1, x: 0}
     }
 
     const linksContainerVariants = {
-        hidden: {opacity: 0, x: 100},
+        hidden: {opacity: 0, x: 20},
         visible: {opacity: 1, x: 0}
     }
 
     const footerTextVariants = {
-        hidden: {opacity: 0, x: 100},
+        hidden: {opacity: 0, x: 20},
         visible: {opacity: 1, x: 0}
     }
 

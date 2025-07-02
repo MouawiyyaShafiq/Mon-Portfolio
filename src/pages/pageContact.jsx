@@ -6,17 +6,17 @@ import emailjs from '@emailjs/browser'
 function pageContact () {
 
     const contactFormTitleVariants = {
-        hidden: { opacity: 0, y: -100 },
+        hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
     }
 
     const contactFormLeftVariants = {
-        hidden: {opacity: 0, x: -75},
+        hidden: {opacity: 0, x: -20},
         visible: {opacity: 1, x: 0}
     }
 
     const contactFormRightVariants = {
-        hidden: {opacity: 0, x: 75},
+        hidden: {opacity: 0, x: 20},
         visible: {opacity: 1, x: 0}
     }
 

@@ -45,12 +45,12 @@ function PageHome () {
 
 
     const presentationTextVariants = {
-        hidden: { opacity: 0, x: -100 },
+        hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0 },
     }
 
     const presentationIMGVariants = {
-        hidden: { opacity: 0, x: 100 },
+        hidden: { opacity: 0, x: 20 },
         visible: { opacity: 1, x: 0 },
     }
 
@@ -67,7 +67,7 @@ function PageHome () {
 
 
     const mainProjectsTitleVariants = {
-        hidden: { opacity: 0, y: -100 },
+        hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
     }
 
@@ -77,8 +77,13 @@ function PageHome () {
     }
 
     const cardVariants = {
-        hidden: { opacity: 0, x: -100 },
+        hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0, transition: {duration: 0.3 , ease: easeInOut} },
+    }
+
+    const mainProjectsLinkVariants = {
+        hidden: { opacity: 0, x: -20 },
+        visible: { opacity: 1, x: 0},
     }
 
     const {ref : refMainProjects, inView: mainProjectsIsInView} = useInView({ threshold: 0.4})
@@ -136,7 +141,14 @@ function PageHome () {
                                     <Card key={project.id} cardImg={project.cover} cardTitle={project.title} id={project.id}/>
                                 </motion.div>})}
                 </motion.div>
-                <NavLink className="mainProjects_link" to="/works">Voir toutes mes réalisations</NavLink>
+                <motion.div 
+                    variants={mainProjectsLinkVariants}
+                    initial="hidden"
+                    animate={mainProjectsControls}
+                    transition={{duration: 0.4, ease: easeInOut}}
+                >
+                    <NavLink className="mainProjects_link" to="/works">Voir toutes mes réalisations</NavLink>
+                </motion.div>
             </section>
             <PageContact></PageContact>
         </>
