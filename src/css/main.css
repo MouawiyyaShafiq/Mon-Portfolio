@@ -935,6 +935,18 @@
   background-color: black;
   color: white;
 }
+.contact_form_messageBox {
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border-radius: 5px;
+  resize: none;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
 
 body {
   background-color: black;

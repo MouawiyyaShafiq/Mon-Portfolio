@@ -1,6 +1,7 @@
 import { easeInOut, motion, useAnimation } from "framer-motion"
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useInView } from "react-intersection-observer"
+import emailjs from '@emailjs/browser'
 
 function pageContact () {
 
@@ -30,6 +31,27 @@ function pageContact () {
         }
     }, [inView]);
 
+    const formRef = useRef()
+    const [emailSent, setEmailSent] = useState(null)
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        emailjs
+            .sendForm(
+                'service_d3grava',
+                'template_ysqka6b',
+                formRef.current,
+                'IkjYoNRJdBPuLeK5E'
+            )
+            .then(() => {
+                setEmailSent(true)
+                formRef.current.reset()
+            })
+            .catch((error) => {
+                setEmailSent(false)
+            })
+    }
+
     return (
         <section className="contact" ref={ref}>
             <motion.h2
@@ -38,7 +60,7 @@ function pageContact () {
                 initial="hidden"
                 transition={{duration: 0.3,delay : 0.2, ease: easeInOut}}
             >Contactez-moi</motion.h2>
-            <form className="contact_form">
+            <form className="contact_form" ref={formRef} onSubmit={handleSubmit}>
                 <motion.input type="text" name="name" placeholder="Votre nom" required 
                     variants={contactFormLeftVariants}
                     animate={controls}
@@ -63,6 +85,25 @@ function pageContact () {
                     initial="hidden"
                     transition={{duration: 0.2, delay : 1, ease: easeInOut}}
                 >Envoyer</motion.button>
+                {emailSent === true ?
+                <motion.div className="contact_form_messageBox" style={{backgroundColor : "#27ae60" }}
+                    variants={contactFormLeftVariants}
+                    animate="visible"
+                    initial="hidden"
+                    transition={{duration: 0.2, delay : 0.2, ease: easeInOut}}
+                >Message envoyé avec succès !</motion.div>
+                :null
+                }
+
+                {emailSent === false ?
+                <motion.div className="contact_form_messageBox" style={{backgroundColor : "#e74c3c"}}
+                    variants={contactFormLeftVariants}
+                    animate="visible"
+                    initial="hidden"
+                    transition={{duration: 0.2, delay : 0.2, ease: easeInOut}}
+                >Une erreur est survenue, veuillez réessayer.</motion.div>
+                :null
+                }
             </form>
         </section>
     )
