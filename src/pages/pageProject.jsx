@@ -49,6 +49,8 @@ function PageProject () {
         
     }, [])
 
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
+
     const {ref,inView}= useInView({threshold:0.4})
     const controls = useAnimation()
 

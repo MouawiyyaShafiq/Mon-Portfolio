@@ -6,6 +6,8 @@ import logo from "/images/logos/Portfolio_logo.svg";
 
 function Footer () {
 
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
+
     const svgVariants = {
         hidden: {opacity: 0, x: -20},
         visible: {opacity: 1, x: 0}

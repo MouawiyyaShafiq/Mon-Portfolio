@@ -7,6 +7,8 @@ import logo from "/images/logos/Portfolio_logo.svg";
 
 function Header () {
 
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
+
     const headerVariants = {
         hidden: {opacity: 0, y: -20},
         visible: {opacity: 1, y: 0}

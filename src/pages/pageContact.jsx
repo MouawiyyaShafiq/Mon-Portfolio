@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser'
 
 function pageContact () {
 
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
+
     const contactFormTitleVariants = {
         hidden: { opacity: 0, y: -20 },
         visible: { opacity: 1, y: 0 },
@@ -30,6 +32,8 @@ function pageContact () {
         controls.start("hidden")
         }
     }, [inView]);
+
+    // Gestion de l'envoi du formulaire avec EmailJS : envoie l'email, affiche le succès ou l'échec, et réinitialise le formulaire après envoi
 
     const formRef = useRef()
     const [emailSent, setEmailSent] = useState(null)

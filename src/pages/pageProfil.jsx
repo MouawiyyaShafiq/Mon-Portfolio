@@ -7,6 +7,9 @@ import { useInView } from "react-intersection-observer"
 
 function PageAbout () {
 
+    // Récupère la liste des outils depuis un fichier JSON et la stocke dans l’état.
+    // En cas d’erreur ou si la liste est vide, redirige vers une page d’erreur.
+
     const navigate = useNavigate()
     const [tools, setTools] = useState(null)
 
@@ -41,6 +44,8 @@ function PageAbout () {
         
     }, [])
 
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
+    
     const { ref: refColapseContainer, inView : colapseContainerIsInView } = useInView({threshold : 0.3})
     const colapseContainerControls = useAnimation()
 

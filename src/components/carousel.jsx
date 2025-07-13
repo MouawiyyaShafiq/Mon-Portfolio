@@ -9,6 +9,8 @@ function Carousel ({carouselImgs}) {
 
     const [currentImg, setCurrentImg] = useState(0)
 
+    // Change l'image actuelle du carrousel selon la direction donnée
+    
     function changeCurrentImg (direction) {
 
         if ( direction === -1) {
@@ -45,11 +47,11 @@ function Carousel ({carouselImgs}) {
                 ></motion.img>
                 { carouselImgs.length <= 1 ? null :
                 <>
-                <div className={`carousel_arrows`} >
-                    <img onClick={() => changeCurrentImg(-1)} className={`carousel_arrows_Left`} src={arrowLeft} alt="Flèche vers la gauche" ></img>
-                    <img onClick={() => changeCurrentImg(+1)} className={`carousel_arrows_Right`} src={arrowRight} alt="Flèche vers la droite" ></img>
-                </div>
-                <p className={`carousel_imgCounter`}>{`${currentImg+1} / ${carouselImgs.length}`}</p>
+                    <div className={`carousel_arrows`} >
+                        <img onClick={() => changeCurrentImg(-1)} className={`carousel_arrows_Left`} src={arrowLeft} alt="Flèche vers la gauche" ></img>
+                        <img onClick={() => changeCurrentImg(+1)} className={`carousel_arrows_Right`} src={arrowRight} alt="Flèche vers la droite" ></img>
+                    </div>
+                    <p className={`carousel_imgCounter`}>{`${currentImg+1} / ${carouselImgs.length}`}</p>
                 </>
                 }
             </section>  

@@ -8,6 +8,9 @@ import { useInView } from "react-intersection-observer"
 
 function PageWorks () {
 
+    // Récupère la liste complète des projets depuis un fichier JSON et la stocke dans l’état.
+    // En cas d’erreur lors de la récupération, redirige vers une page d’erreur.
+
     const [projectList, setProjectList] = useState([])
     const navigate = useNavigate()
 
@@ -36,6 +39,8 @@ function PageWorks () {
         fetchData()
         
     }, [])
+
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
 
     const projectsTitleVariants = {
         hidden: { opacity: 0, y: -20 },

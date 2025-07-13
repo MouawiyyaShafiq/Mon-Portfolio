@@ -7,6 +7,9 @@ import { useInView } from 'react-intersection-observer'
 
 function PageHome () {
 
+    // Récupère la liste des projets depuis un fichier JSON, filtre les projets principaux et les stocke dans l’état.
+    // En cas d’erreur ou si aucun projet principal n’est trouvé, redirige vers une page d’erreur.
+
     const navigate = useNavigate()
     const [mainProjects, setMainProjects] = useState(null)
 
@@ -43,6 +46,7 @@ function PageHome () {
         
     }, [])
 
+    // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
 
     const presentationTextVariants = {
         hidden: { opacity: 0, x: -20 },
