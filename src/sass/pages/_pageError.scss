@@ -1,18 +1,18 @@
-.pageErrorContainer{
+.pageErrorContainer {
     max-width: 1240px;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    font-family: Montserrat ;
+    font-family: Montserrat;
     color: $color-primary ;
 
     @media (max-width: 768px) {
         padding: 20px 50px;
     }
 
-    &_title{
+    &_title {
         margin: 0;
         line-height: 100%;
         font-size: 150px;
@@ -23,38 +23,38 @@
         }
     }
 
-    &_text{
-        margin: 0;  
+    &_text {
+        margin: 0;
         font-weight: 500;
         font-size: 36px;
         text-align: center;
         line-height: 1.4;
 
         @media (max-width: 768px) {
-            font-size: 18px;  
+            font-size: 18px;
         }
 
         & br {
             display: none;
 
             @media (max-width: 768px) {
-                display: block;  
+                display: block;
             }
         }
-    
+
     }
 
-    &_link{
-        margin: 0;  
+    &_link {
+        margin: 0;
         font-weight: 500;
         font-size: 18px;
         line-height: 1.4;
         color: $color-primary ;
 
         @media (max-width: 768px) {
-            font-size: 14px;  
+            font-size: 14px;
         }
-    
+
     }
 
 }

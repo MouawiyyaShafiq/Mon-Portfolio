@@ -7,11 +7,11 @@ function App() {
 
   return (
     <HashRouter>
-      <Header/>
-        <main>
-          <Router/>
-        </main>
-      <Footer/>
+      <Header />
+      <main>
+        <Router />
+      </main>
+      <Footer />
     </HashRouter>
   )
 }

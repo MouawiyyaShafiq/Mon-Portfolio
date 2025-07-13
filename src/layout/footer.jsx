@@ -1,41 +1,41 @@
 import { NavLink } from "react-router-dom"
-import { easeInOut, motion, useAnimation} from "framer-motion"
-import { useEffect,} from "react"
+import { easeInOut, motion, useAnimation } from "framer-motion"
+import { useEffect, } from "react"
 import { useInView } from "react-intersection-observer"
 import logo from "/images/logos/Portfolio_logo.svg";
 
-function Footer () {
+function Footer() {
 
     // Variantes et contrôles d'animation avec Framer Motion pour animer les éléments lors de leur apparition dans la fenêtre
 
     const svgVariants = {
-        hidden: {opacity: 0, x: -20},
-        visible: {opacity: 1, x: 0}
+        hidden: { opacity: 0, x: -20 },
+        visible: { opacity: 1, x: 0 }
     }
 
     const linksContainerVariants = {
-        hidden: {opacity: 0, x: 20},
-        visible: {opacity: 1, x: 0}
+        hidden: { opacity: 0, x: 20 },
+        visible: { opacity: 1, x: 0 }
     }
 
     const footerTextVariants = {
-        hidden: {opacity: 0, x: 20},
-        visible: {opacity: 1, x: 0}
+        hidden: { opacity: 0, x: 20 },
+        visible: { opacity: 1, x: 0 }
     }
 
-    const {ref, inView} = useInView({ threshold: 0.2})
+    const { ref, inView } = useInView({ threshold: 0.2 })
     const mainControls = useAnimation()
 
     useEffect(() => {
         if (inView) {
-        mainControls.start("visible")
+            mainControls.start("visible")
         } else {
-        mainControls.start("hidden")
+            mainControls.start("hidden")
         }
     }, [inView]);
 
     return (
-        
+
         <footer className="footer" ref={ref}>
             <div className="footer_logoLinks">
                 <NavLink className="footer_logoLinks_logoLink" to="/">
@@ -43,13 +43,13 @@ function Footer () {
                         variants={svgVariants}
                         initial="hidden"
                         animate={mainControls}
-                        transition={{duration: 0.3 , ease: easeInOut}}
+                        transition={{ duration: 0.3, ease: easeInOut }}
                     />
                 </NavLink>
                 <motion.div className="footer_logoLinks_socialLinks"
                     variants={linksContainerVariants}
                     animate={mainControls}
-                    transition={{duration: 0.3, delay: 0.2 , ease: easeInOut}}
+                    transition={{ duration: 0.3, delay: 0.2, ease: easeInOut }}
                 >
                     <motion.a href="mailto:mouawiyya.sh@hotmail.com" className="footer_logoLinks_socialLinks_link">
                         <i className="fas fa-envelope"></i>
@@ -65,7 +65,7 @@ function Footer () {
             <motion.p className="footer_text"
                 variants={footerTextVariants}
                 animate={mainControls}
-                transition={{duration: 0.3, delay: 0.3 , ease: easeInOut}}
+                transition={{ duration: 0.3, delay: 0.3, ease: easeInOut }}
             >© 2025 Mouawiyya SHAFIQ , Tous droits réservés.</motion.p>
         </footer>
 

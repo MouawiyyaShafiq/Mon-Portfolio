@@ -1,7 +1,7 @@
 @import "../components/carousel";
 @import "../components/projectHeader";
 
-.project{
+.project {
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
@@ -14,44 +14,44 @@
         gap: 20px;
     }
 
-    &>div{
+    &>div {
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    &_info{
+    &_info {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    
-
-    @media (max-width: 768px) {
-        gap: 20px;
-    }
-
-    &>div{
-        width: 100%;
         display: flex;
-        justify-content: center;
-    }
-
-    }   
-
-    &_colapses{
-    width: 100%;
-    display: flex;
-    gap: 50px;
-
-    @media (max-width: 768px) {
         flex-direction: column;
-        gap: 20px;
-    }
+        align-items: center;
+        gap: 30px;
+
+
+        @media (max-width: 768px) {
+            gap: 20px;
+        }
+
+        &>div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
     }
 
-    &_link{
+    &_colapses {
+        width: 100%;
+        display: flex;
+        gap: 50px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    &_link {
         text-decoration: none;
         color: $color-primary;
         margin: auto;
@@ -63,10 +63,10 @@
         font-size: 24px;
 
         @media (max-width: 768px) {
-        font-size: 16px;
-        }   
-        
-        &:hover{
+            font-size: 16px;
+        }
+
+        &:hover {
             font-weight: 500;
             background-color: $color-primary;
             color: $color-secondary;
@@ -74,7 +74,7 @@
         }
     }
 
-    &_linkSite{
+    &_linkSite {
         text-decoration: none;
         color: $color-primary;
         margin: auto;
@@ -86,10 +86,10 @@
         font-size: 24px;
 
         @media (max-width: 768px) {
-        font-size: 16px;
-        }   
-        
-        &:hover{
+            font-size: 16px;
+        }
+
+        &:hover {
             font-weight: 500;
             background-color: $color-primary;
             color: $color-secondary;
@@ -98,7 +98,3 @@
     }
 
 }
-
-
-
-

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function PageError () {
+function PageError() {
 
     return (
 
@@ -11,7 +11,7 @@ function PageError () {
             <Link to="/" className="pageErrorContainer_link">Retourner sur la page d’accueil</Link>
 
         </div>
-    
+
     )
 
 }

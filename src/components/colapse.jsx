@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-function Colapse ({colapseTitle,colapseContent}) {
+function Colapse({ colapseTitle, colapseContent }) {
 
     const colapseArrow = `${import.meta.env.BASE_URL}images/ui/colapse_arrow.png`
 
-    const [isOpen , setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
     //Fonction appelée suite au click sur la flèche la fonction permet de set isOpen true ou false dépendant de l'état précèdent //
 
-    function handleClick () {
+    function handleClick() {
         setIsOpen(!isOpen)
     }
 
@@ -17,19 +17,19 @@ function Colapse ({colapseTitle,colapseContent}) {
         <article className={`colapse colapse--${isOpen ? "isOpen" : "isClosed"}`}>
             <div className="colapse_header">
                 <h2 className="colapse_header_title">{colapseTitle}</h2>
-                <img onClick={ () => handleClick()} className={`colapse_header_arrow colapse_header_arrow--${isOpen ? "isOpen" : "isClosed"}`} src={colapseArrow} alt="Flèche pour ouvrir ou fermer le colapse"></img>
+                <img onClick={() => handleClick()} className={`colapse_header_arrow colapse_header_arrow--${isOpen ? "isOpen" : "isClosed"}`} src={colapseArrow} alt="Flèche pour ouvrir ou fermer le colapse"></img>
             </div>
-            
+
             <div className={`colapse_content colapse_content--${isOpen ? "isOpen" : "isClosed"}`}>
-                {Array.isArray(colapseContent) ? 
-                 <ul style={{"listStyle": "none","padding":"0","margin":"0"}}>
-                    {colapseContent.map((content)=>{ 
-                        return <li key={content}>{content}</li> 
-                    })}
-                 </ul>
-                 : colapseContent}
+                {Array.isArray(colapseContent) ?
+                    <ul style={{ "listStyle": "none", "padding": "0", "margin": "0" }}>
+                        {colapseContent.map((content) => {
+                            return <li key={content}>{content}</li>
+                        })}
+                    </ul>
+                    : colapseContent}
             </div>
-    
+
         </article>
 
     )

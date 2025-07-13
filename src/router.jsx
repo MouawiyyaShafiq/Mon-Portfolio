@@ -6,15 +6,15 @@ import PageError from "./pages/pageError"
 import PageWorks from "./pages/pageWorks"
 import PageContact from "./pages/pageContact"
 
-function Router (){
+function Router() {
     return (
         <Routes>
-            <Route path="/" element={<PageHome/>}></Route>
-            <Route path="/works" element={<PageWorks/>}></Route>
-            <Route path="/profil" element={<PageProfil/>}></Route>
-            <Route path="/contact" element={<PageContact/>}></Route>
-            <Route path="/project/:currentProjectId" element={<PageProject/>}></Route>
-            <Route path="*" element={<PageError/>}></Route>
+            <Route path="/" element={<PageHome />}></Route>
+            <Route path="/works" element={<PageWorks />}></Route>
+            <Route path="/profil" element={<PageProfil />}></Route>
+            <Route path="/contact" element={<PageContact />}></Route>
+            <Route path="/project/:currentProjectId" element={<PageProject />}></Route>
+            <Route path="*" element={<PageError />}></Route>
         </Routes>
     )
 }

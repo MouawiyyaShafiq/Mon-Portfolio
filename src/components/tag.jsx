@@ -1,4 +1,4 @@
-function Tag ({tagContent}) {
+function Tag({ tagContent }) {
 
     return (
 

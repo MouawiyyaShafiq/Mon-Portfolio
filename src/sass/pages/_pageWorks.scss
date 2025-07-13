@@ -11,15 +11,15 @@
     justify-content: center;
 
     @media (max-width: 768px) {
-        padding: 20px 0px ;    
+        padding: 20px 0px;
     }
 
-    &_title{
-       color: $color-primary;
-       margin: 0;
+    &_title {
+        color: $color-primary;
+        margin: 0;
     }
 
-    &_container{
+    &_container {
         padding: 30px 20px;
         max-width: 1140px;
         border-radius: 10px;
@@ -34,7 +34,7 @@
             border-radius: 0px;
         }
 
-        &>div{
+        &>div {
             width: 29.5%;
 
             @media (max-width: 768px) {

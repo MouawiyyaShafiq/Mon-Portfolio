@@ -9,15 +9,15 @@
     transition: all 500ms;
     border-radius: 5px;
 
-    &--isOpen{
+    &--isOpen {
         max-height: 500px;
     }
 
-    &--isClosed{
-        max-height: 53px ;
+    &--isClosed {
+        max-height: 53px;
 
         @media (max-width: 768px) {
-            max-height: 33px ;
+            max-height: 33px;
         }
     }
 
@@ -31,15 +31,15 @@
         justify-content: space-between;
         align-items: center;
         z-index: 1;
-        
+
         @media (max-width: 768px) {
             height: 13px;
             padding: 10px 10px;
         }
 
-        &_title{
+        &_title {
             margin: 0;
-            font-family: Montserrat ;
+            font-family: Montserrat;
             font-weight: 700;
             font-size: 24px;
 
@@ -48,8 +48,8 @@
             }
         }
 
-        &_arrow{
-            
+        &_arrow {
+
             background-color: $color-secondary;
             padding: 10px 5px;
             border-radius: 5px;
@@ -61,16 +61,16 @@
                 width: 16px;
                 height: 9.14px;
                 padding: 7.5px 2.5px;
-                }
-
-            &--isOpen{
-                transform: rotate(-180deg);
-                
             }
 
-            &--isClosed{
+            &--isOpen {
+                transform: rotate(-180deg);
+
+            }
+
+            &--isClosed {
                 transform: rotate(0deg);
-                
+
             }
 
         }
@@ -79,31 +79,31 @@
 
     }
 
-    &_content{
+    &_content {
         background-color: $color-primary;
         color: $color-secondary ;
         font-weight: 500;
         padding: 20px;
         margin-top: -5px;
         text-align: justify;
-        font-family: Montserrat ;
+        font-family: Montserrat;
         font-size: 18px;
         transition: all 500ms;
-        
-        
+
+
         @media (max-width: 768px) {
             font-size: 12px;
         }
 
-        &--isOpen{
+        &--isOpen {
             transform: translateY(0)
         }
 
-        &--isClosed{
+        &--isClosed {
             transform: translateY(-100%);
         }
 
-        
+
     }
 
 

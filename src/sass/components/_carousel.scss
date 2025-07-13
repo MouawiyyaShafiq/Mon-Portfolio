@@ -13,7 +13,7 @@
         height: 255px;
     }
 
-    &_img{
+    &_img {
         background-color: $color-primary;
         width: 100%;
         height: 100%;
@@ -23,7 +23,7 @@
 
     }
 
-    &_arrows{
+    &_arrows {
         position: absolute;
         top: 0;
         left: 0;
@@ -52,10 +52,10 @@
         }
     }
 
-    &_imgCounter{
+    &_imgCounter {
         position: absolute;
         bottom: 0;
-        font-family: Montserrat ;
+        font-family: Montserrat;
         font-size: 18px;
         font-weight: bold;
         color: $color-primary;
